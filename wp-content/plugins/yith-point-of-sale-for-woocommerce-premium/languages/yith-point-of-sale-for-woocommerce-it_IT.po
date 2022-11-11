@@ -1,0 +1,2950 @@
+# Translation of YITH Point of Sale for WooCommerce in Italian
+# This file is distributed under the same license as the YITH Point of Sale for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Point of Sale for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-point-of-"
+"sale-for-woocommerce\n"
+"POT-Creation-Date: 2021-10-11T14:25:33+00:00\n"
+"PO-Revision-Date: 2020-10-19 17:51:20+0000\n"
+"Language: it\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#. Plugin Name of the plugin
+msgid "YITH Point of Sale for WooCommerce"
+msgstr "YITH Point of Sale for WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://yithemes.com/themes/plugins/yith-point-of-sale-for-woocommerce"
+msgstr "https://yithemes.com/themes/plugins/yith-point-of-sale-for-woocommerce"
+
+#. Description of the plugin
+msgid ""
+"<code><strong>YITH Point of Sale for WooCommerce</strong></code> allows you "
+"to turn your WooCommerce installation into an easy to use and powerful cash "
+"register for each type of store or business. <a href=\"https://yithemes.com/"
+"\" target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>"
+msgstr ""
+"<code><strong>YITH Point of Sale for WooCommerce</strong></code> ti permette "
+"di trasformare la tua installazione WooCommerce in una potente cassa "
+"potente, facile da utilizzare per ogni tipo di negozio o attività "
+"commerciale. <a href=\"https://yithemes.com/\" target=\"_blank\">Scopri "
+"molti altri plugin per il tuo e-commerce su <strong>YITH</strong></a>"
+
+#. Author of the plugin
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#: includes/admin/class.yith-pos-receipt-post-type-admin.php:74
+msgid "Registers with this template"
+msgstr "Casse che usano questo template"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:102
+msgid "Filter by store"
+msgstr "Filtra per negozio"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:111
+msgid "Filter by status"
+msgstr "Filtra per stato"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:136
+msgid "Register Name"
+msgstr "Nome della cassa"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:137
+#: includes/class.yith-pos-post-types.php:107
+#: includes/class.yith-pos-post-types.php:121
+#: templates/yith-pos-store-register.php:77
+msgid "Store"
+msgstr "Negozio"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:138
+#: includes/admin/class.yith-pos-store-post-type-admin.php:300
+msgid "Info"
+msgstr "Informazioni"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:139
+msgid "Status"
+msgstr "Stato"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:140
+#: includes/admin/class.yith-pos-store-post-type-admin.php:357
+#: dist/pos/index.js:22
+msgid "Enabled"
+msgstr "Abilitata"
+
+#. translators: %s is the receipt name.
+#: includes/admin/class.yith-pos-register-post-type-admin.php:170
+msgid "Receipt: %s"
+msgstr "Scontrino: %s"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:172
+msgid "No Receipt"
+msgstr "Nessuno scontrino"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:262
+#: includes/class.yith-pos-post-types.php:110
+#: includes/class.yith-pos-post-types.php:151
+#: includes/class.yith-pos-post-types.php:192
+#: plugin-options/metabox/receipt-options.php:23
+#: plugin-options/metabox/store-options.php:17
+msgid "Edit"
+msgstr "Modifica"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:274
+#: templates/yith-pos-store-register.php:87 dist/pos/index.js:22
+msgid "Open Register"
+msgstr "Apri la cassa"
+
+#. translators: %s is the payment gateway name.
+#: includes/admin/class.yith-pos-store-post-type-admin.php:110
+#: includes/class.yith-pos-admin.php:130 dist/pos/index.js:22
+msgid "Yes"
+msgstr "Sì"
+
+#. translators: %s is the payment gateway name.
+#: includes/admin/class.yith-pos-store-post-type-admin.php:111
+#: includes/class.yith-pos-admin.php:133
+msgid "No"
+msgstr "No"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:115
+msgid "Filter by enabled status"
+msgstr "Filtra per stato 'Abilitato'"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:300
+msgid "Step 1: Store Info"
+msgstr "Step 1: Informazioni negozio"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:301
+#: includes/admin/class.yith-pos-store-post-type-admin.php:309
+msgid "General store info"
+msgstr "Informazioni generali del negozio"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:301
+msgid ""
+"Enter the store details including the address, contact information and "
+"social accounts"
+msgstr ""
+"Compila i dettagli del negozio includendo l'indirizzo, le informazioni di "
+"contatto e gli account social"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:304
+#: includes/admin/class.yith-pos-store-post-type-admin.php:355
+#: plugin-options/metabox/store-options.php:149
+#: views/panel/store-wizard-nav.php:21 views/panel/store-wizard-summary.php:82
+msgid "Employees"
+msgstr "Personale"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:304
+msgid "Step 2: Employees"
+msgstr "Step 2: Personale"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:305
+msgid ""
+"Set the employees (managers and cashiers) for this store<br/>You can choose "
+"your cashiers from the users already registered in this site or create new "
+"cashiers"
+msgstr ""
+"Seleziona il personale (manager e cassieri) di questo negozio <br/>Puoi "
+"scegliere i cassieri fra gli utenti registrati in questo sito o crearne di "
+"nuovi"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:305
+msgid ""
+"Assign a manager to manage all registers and add cashiers to each of them"
+msgstr ""
+"Assegna un manager che avrà accesso a tutte le casse e seleziona i cassieri "
+"per ciascuna cassa"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:308
+#: includes/admin/class.yith-pos-store-post-type-admin.php:356
+#: includes/class.yith-pos-admin.php:158
+#: includes/class.yith-pos-post-types.php:147
+#: includes/class.yith-pos-post-types.php:162
+#: plugin-options/metabox/store-options.php:262
+#: views/panel/store-wizard-nav.php:26 views/panel/store-wizard-summary.php:103
+msgid "Registers"
+msgstr "Casse"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:308
+msgid "Step 3: Registers"
+msgstr "Step 3: Casse"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:309
+msgid ""
+"Create at least one register for this store.<br/>You can set the visibility "
+"of each register to hide/show to some users"
+msgstr ""
+"Crea almeno una cassa per questo negozio.<br/>Puoi impostare la visibilità "
+"di ogni cassa e renderla visibile o nasconderla solo ad alcuni utenti"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:312
+msgid "Resume"
+msgstr "Riprendi"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:313
+msgid ""
+"Just one more step! Click the \"Save Store\" button to save your store. To "
+"make changes you can go back now or edit these from \"Stores\" tab."
+msgstr ""
+"Un ultimo step! Premi il pulsante \"Salva negozio\" per salvare questo "
+"negozio. Per qualsiasi modifica puoi tornare indietro adesso oppure accedere "
+"dalla tab \"Negozi\"."
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:354
+#: plugin-options/metabox/store-options.php:48
+#: views/metabox/receipt-preview-template.php:18
+#: views/panel/store-wizard-summary.php:26
+msgid "Store Name"
+msgstr "Nome del negozio"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:380
+#: views/panel/store-wizard-summary.php:84
+msgid "Managers"
+msgstr "Manager"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:385
+#: plugin-options/metabox/store-options.php:211
+#: views/panel/store-wizard-summary.php:93
+msgid "Cashiers"
+msgstr "Cassieri"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:476
+msgid "Show Registers"
+msgstr "Mostra le casse"
+
+#: includes/class.yith-pos-admin.php:102 includes/class.yith-pos-admin.php:104
+msgid "Enabled on YITH POS"
+msgstr "Abilitato su YITH POS"
+
+#. translators: %s is the payment gateway name.
+#: includes/class.yith-pos-admin.php:130
+msgid "The \"%s\" payment method is currently enabled on YITH POS"
+msgstr "Il metodo di pagamento \"%s\" è abilitato per YITH POS"
+
+#. translators: %s is the payment gateway name.
+#: includes/class.yith-pos-admin.php:133
+msgid "The \"%s\" payment method is currently disabled on YITH POS"
+msgstr "Il metodo di pagamento \"%s\" al momento non è abilitato per YITH POS"
+
+#: includes/class.yith-pos-admin.php:150
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/class.yith-pos-admin.php:154
+#: includes/class.yith-pos-post-types.php:106
+msgid "Stores"
+msgstr "Negozi"
+
+#: includes/class.yith-pos-admin.php:162
+#: includes/class.yith-pos-post-types.php:188
+#: includes/class.yith-pos-post-types.php:203
+msgid "Receipts"
+msgstr "Scontrini"
+
+#: includes/class.yith-pos-admin.php:166
+msgid "Customization"
+msgstr "Personalizzazione"
+
+#: includes/class.yith-pos-admin.php:395
+msgid "Visit POS"
+msgstr "Vai alla Cassa POS"
+
+#: includes/class.yith-pos-admin.php:410 includes/class.yith-pos-admin.php:426
+#: includes/class.yith-pos-frontend.php:151
+#: views/metabox/receipt-preview-template.php:21
+msgid "VAT"
+msgstr "IVA"
+
+#: includes/class.yith-pos-admin.php:445 includes/class.yith-pos.php:291
+msgid "YITH POS"
+msgstr "YITH POS"
+
+#: includes/class.yith-pos-admin.php:446
+msgid "Online"
+msgstr "Online"
+
+#: includes/class.yith-pos-admin.php:449
+msgid "Filter by YITH POS or online"
+msgstr "Filtra ordini per YITH POS oppure Online"
+
+#: includes/class.yith-pos-admin.php:521
+msgid "POS Info"
+msgstr "Informazioni POS"
+
+#: includes/class.yith-pos-admin.php:527
+msgid "Settings"
+msgstr "Impostazioni"
+
+#. translators: %s is the ID of the store.
+#: includes/class.yith-pos-ajax.php:101
+msgid "Error: Store #%s not found"
+msgstr "Errore: il negozio #%s non è stato trovato"
+
+#: includes/class.yith-pos-ajax.php:108 includes/class.yith-pos-ajax.php:141
+#: includes/class.yith-pos-ajax.php:169 includes/class.yith-pos-ajax.php:214
+#: includes/class.yith-pos-ajax.php:257 includes/class.yith-pos-ajax.php:295
+msgid "Error: Invalid request. Try again!"
+msgstr "Errore: richiesta non valida. Riprova!"
+
+#. translators: %s is the ID of the register.
+#: includes/class.yith-pos-ajax.php:134
+msgid "Error: Register #%s not found"
+msgstr "Errore: la cassa #%s non è stata trovata"
+
+#: includes/class.yith-pos-ajax.php:272
+msgid "Register updated correctly!"
+msgstr "Cassa aggiornata con successo!"
+
+#: includes/class.yith-pos-ajax.php:276
+msgid "Error: Something had gone wrong. Please try again!"
+msgstr "Errore: qualcosa è andato storto. Riprova!"
+
+#. translators: %s is the register ID.
+#. translators: %s is the register ID.
+#: includes/class.yith-pos-ajax.php:282 includes/class.yith-pos-ajax.php:307
+msgid "Error: Register #%s not found. Please try again!"
+msgstr "Errore: la cassa #%s non è stata trovata. Riprova!"
+
+#: includes/class.yith-pos-assets.php:102
+msgid "Here you can create, edit and manage all the Stores."
+msgstr "Da qui puoi creare, modificare e gestire tutti i tuoi Negozi."
+
+#: includes/class.yith-pos-assets.php:103
+msgid "Here you can manage all the Registers of the Stores"
+msgstr "Da qui puoi gestire le casse di tutti i tuoi negozi"
+
+#: includes/class.yith-pos-assets.php:104
+msgid "Here you can manage all the Receipt Templates"
+msgstr "Da qui puoi gestire tutti i template degli scontrini"
+
+#: includes/class.yith-pos-assets.php:105
+msgid "You need to create at least one Register before proceeding"
+msgstr "Devi creare almeno una cassa per poter continuare"
+
+#: includes/class.yith-pos-assets.php:106
+msgid ""
+"To restock items automatically for a POS order you need WooCommerce 4.1 or "
+"greater.<br />For previous versions, you can restock them manually after "
+"refunding the order."
+msgstr ""
+"Per rimettere in stock automaticamente gli articoli di un ordine POS è "
+"necessario utilizzare la versione 4.1 o superiore di WooCommerce.<br />Per "
+"le versioni precedenti, è possibile rifornire lo stock manualmente dopo aver "
+"rimborsato l'ordine."
+
+#: includes/class.yith-pos-assets.php:107
+#: includes/class.yith-pos-products.php:50
+msgid "POS results only"
+msgstr "Solo risultati POS"
+
+#: includes/class.yith-pos-assets.php:127
+msgid "Are you sure you want to delete this Register?"
+msgstr "Sei sicuro di voler eliminare questa cassa?"
+
+#: includes/class.yith-pos-frontend.php:549
+msgid "Error: you cannot get access to this Register!"
+msgstr "Errore: non hai accesso a questa cassa!"
+
+#: includes/class.yith-pos-orders.php:80 dist/pos/index.js:22
+msgid "Note"
+msgstr "Nota"
+
+#: includes/class.yith-pos-post-types.php:108
+#: includes/class.yith-pos-post-types.php:109
+msgid "Add New Store"
+msgstr "Aggiungi un negozio"
+
+#: includes/class.yith-pos-post-types.php:111
+msgid "Edit Store"
+msgstr "Modifica il negozio"
+
+#: includes/class.yith-pos-post-types.php:112
+msgid "New Store"
+msgstr "Nuovo negozio"
+
+#: includes/class.yith-pos-post-types.php:113
+#: includes/class.yith-pos-post-types.php:114
+msgid "View Store"
+msgstr "Visualizza il negozio"
+
+#: includes/class.yith-pos-post-types.php:115
+msgid "Search Store"
+msgstr "Cerca un negozio"
+
+#: includes/class.yith-pos-post-types.php:116
+#: includes/class.yith-pos-post-types.php:157
+#: includes/class.yith-pos-post-types.php:198
+msgid "Not found"
+msgstr "Nessun risultato"
+
+#: includes/class.yith-pos-post-types.php:117
+#: includes/class.yith-pos-post-types.php:158
+#: includes/class.yith-pos-post-types.php:199
+msgid "Not found in trash"
+msgstr "Nessun risultato nel Cestino"
+
+#: includes/class.yith-pos-post-types.php:123
+msgid "This is where Stores are stored."
+msgstr "Qui troverai tutti i tuoi negozi."
+
+#: includes/class.yith-pos-post-types.php:148
+#: templates/yith-pos-store-register.php:83
+#: views/metabox/receipt-preview-template.php:106
+msgid "Register"
+msgstr "Cassa"
+
+#: includes/class.yith-pos-post-types.php:149
+#: includes/class.yith-pos-post-types.php:150
+msgid "Add New Register"
+msgstr "Aggiungi una nuova cassa"
+
+#: includes/class.yith-pos-post-types.php:152
+msgid "Edit Register"
+msgstr "Modifica la cassa"
+
+#: includes/class.yith-pos-post-types.php:153
+msgid "New Register"
+msgstr "Nuova cassa"
+
+#: includes/class.yith-pos-post-types.php:154
+#: includes/class.yith-pos-post-types.php:155
+msgid "View Register"
+msgstr "Visualizza la cassa"
+
+#: includes/class.yith-pos-post-types.php:156
+msgid "Search Registers"
+msgstr "Cerca una cassa"
+
+#: includes/class.yith-pos-post-types.php:164
+msgid "This is where Registers are stored."
+msgstr "Qui troverai tutte le casse."
+
+#: includes/class.yith-pos-post-types.php:189
+#: plugin-options/metabox/register-options.php:107
+msgid "Receipt"
+msgstr "Scontrino"
+
+#: includes/class.yith-pos-post-types.php:190
+#: includes/class.yith-pos-post-types.php:191
+msgid "Add New Receipt"
+msgstr "Aggiungi nuovo scontrino"
+
+#: includes/class.yith-pos-post-types.php:193
+msgid "Edit Receipt"
+msgstr "Modifica lo scontrino"
+
+#: includes/class.yith-pos-post-types.php:194
+msgid "New Receipt"
+msgstr "Nuovo scontrino"
+
+#: includes/class.yith-pos-post-types.php:195
+#: includes/class.yith-pos-post-types.php:196
+msgid "View Receipt"
+msgstr "Visualizza lo scontrino"
+
+#: includes/class.yith-pos-post-types.php:197
+msgid "Search Receipts"
+msgstr "Cerca uno scontrino"
+
+#: includes/class.yith-pos-post-types.php:205
+msgid "This is where Receipts are stored."
+msgstr "Qui troverai tutti gli scontrini."
+
+#. translators: %s is the name of the store.
+#. translators: %s is the name of the store.
+#: includes/class.yith-pos-post-types.php:334
+#: includes/class.yith-pos-post-types.php:336
+msgid "Store \"%s\" updated!"
+msgstr "Negozio \"%s\" aggiornato!"
+
+#. translators: %s is the name of the store.
+#: includes/class.yith-pos-post-types.php:338
+msgid "Congrats! You've just created your Store: %s."
+msgstr "Complimenti! Hai appena creato il tuo Negozio: %s."
+
+#. translators: %s is the name of the store.
+#: includes/class.yith-pos-post-types.php:340
+msgid "Store \"%s\" saved!"
+msgstr "Negozio \"%s\" salvato!"
+
+#. translators: %s is the name of the register.
+#. translators: %s is the name of the register.
+#: includes/class.yith-pos-post-types.php:344
+#: includes/class.yith-pos-post-types.php:346
+msgid "Register \"%s\" updated!"
+msgstr "Cassa \"%s\" aggiornata!"
+
+#. translators: %s is the name of the register.
+#: includes/class.yith-pos-post-types.php:348
+msgid "Congrats! You've just created your Register: %s."
+msgstr "Complimenti! Hai appena creato la Cassa: %s."
+
+#. translators: %s is the name of the register.
+#: includes/class.yith-pos-post-types.php:350
+msgid "Register \"%s\" saved!"
+msgstr "Cassa \"%s\" salvata!"
+
+#. translators: %s is the name of the receipt.
+#. translators: %s is the name of the receipt.
+#: includes/class.yith-pos-post-types.php:354
+#: includes/class.yith-pos-post-types.php:356
+msgid "Receipt \"%s\" updated!"
+msgstr "Scontrino \"%s\" aggiornato!"
+
+#. translators: %s is the name of the receipt.
+#: includes/class.yith-pos-post-types.php:358
+msgid "Congrats! You've just created your receipt: %s."
+msgstr "Complimenti! Hai appena creato lo scontrino: %s."
+
+#. translators: %s is the name of the receipt.
+#: includes/class.yith-pos-post-types.php:360
+msgid "Receipt \"%s\" saved!"
+msgstr "Scontrino \"%s\" salvato!"
+
+#: includes/class.yith-pos-post-types.php:389
+msgid "YITH POS roles and capabilities regenerated correctly!"
+msgstr "Ruoli e permessi di YITH POS rigenerati con successo!"
+
+#: includes/class.yith-pos-post-types.php:429
+msgctxt "User role"
+msgid "YITH POS Manager"
+msgstr "YITH POS - Manager"
+
+#: includes/class.yith-pos-post-types.php:430
+msgctxt "User role"
+msgid "YITH POS Cashier"
+msgstr "YITH POS - Cassiere"
+
+#: includes/class.yith-pos-post-types.php:471
+#: includes/class.yith-pos-post-types.php:480
+msgid "Default Receipt"
+msgstr "Scontrino predefinito"
+
+#: includes/class.yith-pos-post-types.php:484
+#: plugin-options/metabox/receipt-options.php:74
+msgid "VAT:"
+msgstr "IVA:"
+
+#: includes/class.yith-pos-post-types.php:491
+#: plugin-options/metabox/receipt-options.php:215
+msgid "Date:"
+msgstr "Data:"
+
+#: includes/class.yith-pos-post-types.php:493
+#: plugin-options/metabox/receipt-options.php:234
+msgid "Order:"
+msgstr "Ordine:"
+
+#: includes/class.yith-pos-post-types.php:495
+#: plugin-options/metabox/receipt-options.php:253 dist/pos/index.js:22
+msgid "Customer:"
+msgstr "Cliente:"
+
+#: includes/class.yith-pos-post-types.php:497
+#: plugin-options/metabox/receipt-options.php:272
+#: views/metabox/shop-order-pos-info-metabox.php:24 dist/pos/index.js:22
+msgid "Register:"
+msgstr "Cassa:"
+
+#: includes/class.yith-pos-post-types.php:499
+#: plugin-options/metabox/receipt-options.php:291
+#: views/metabox/shop-order-pos-info-metabox.php:29
+msgid "Cashier:"
+msgstr "Cassiere:"
+
+#: includes/class.yith-pos-post-types.php:500
+#: plugin-options/metabox/receipt-options.php:307
+#: views/metabox/receipt-preview-template.php:115
+msgid "Thanks for your purchase"
+msgstr "Grazie per averci scelto"
+
+#: includes/class.yith-pos.php:86
+msgid "YITH POS template Page"
+msgstr "Pagina template per YITH POS"
+
+#: includes/class.yith-pos.php:279
+msgctxt "slug of the page"
+msgid "pos"
+msgstr "pos"
+
+#: includes/functions.yith-pos-caps.php:183
+msgid "You do not have permission to view products"
+msgstr "Non hai i permessi necessari per visualizzare i prodotti"
+
+#: includes/functions.yith-pos-caps.php:184
+msgid "You do not have permission to create products"
+msgstr "Non hai i permessi necessari per creare i prodotti"
+
+#: includes/functions.yith-pos-caps.php:185
+msgid "You do not have permission to view product categories"
+msgstr "Non hai i permessi necessari per visualizzare le categorie di prodotti"
+
+#: includes/functions.yith-pos-caps.php:186
+msgid "You do not have permission to create orders"
+msgstr "Non hai i permessi necessari per creare ordini"
+
+#: includes/functions.yith-pos-caps.php:187
+msgid "You do not have permission to see orders"
+msgstr "Non hai i permessi necessari per vedere gli ordini"
+
+#: includes/functions.yith-pos-caps.php:188
+msgid "You do not have permission to manage POS"
+msgstr "Non hai i permessi necessari per gestire il punto vendita"
+
+#: includes/functions.yith-pos-caps.php:189
+msgid "You do not have permission to view reports"
+msgstr "Non hai i permessi necessari per visualizzare i report"
+
+#: includes/functions.yith-pos-caps.php:190
+msgid "You do not have permission to view coupons"
+msgstr "Non hai i permessi necessari per creare codici promozionali"
+
+#: includes/functions.yith-pos-caps.php:191
+msgid "You do not have permission to use POS"
+msgstr "Non hai i permessi necessari per utilizzare il punto vendita"
+
+#: includes/functions.yith-pos-caps.php:192
+msgid "You do not have permission to view users"
+msgstr "Non hai i permessi necessari per visualizzare gli utenti"
+
+#: includes/functions.yith-pos-caps.php:193
+msgid "You do not have permission to edit users"
+msgstr "Non hai i permessi necessari per modificare gli utenti"
+
+#: includes/functions.yith-pos-caps.php:194
+msgid "You do not have permission to create users"
+msgstr "Non hai i permessi necessari per creare utenti"
+
+#. translators: %s is the user ID.
+#: includes/functions.yith-pos-core.php:70
+msgid "User #%s"
+msgstr "Utente #%s"
+
+#. translators: %s is the number of other items.
+#: includes/functions.yith-pos-core.php:145
+msgid "and other %s..."
+msgstr "e altri %s..."
+
+#. translators: %s is the number of other items.
+#: includes/functions.yith-pos-core.php:146
+msgid "hide"
+msgstr "nascondi"
+
+#: includes/functions.yith-pos-core.php:350
+msgid "No receipt"
+msgstr "Nessuno scontrino"
+
+#: includes/functions.yith-pos-core.php:378
+#: includes/functions.yith-pos-core.php:379
+msgid "Create new user"
+msgstr "Crea un nuovo utente"
+
+#: includes/functions.yith-pos-core.php:380
+msgid "Close new user creation"
+msgstr "Chiudi la procedura di creazione nuovo utente"
+
+#: includes/functions.yith-pos-core.php:381
+msgid "Create user"
+msgstr "Crea utente"
+
+#: includes/functions.yith-pos-core.php:412
+msgid "This field is required."
+msgstr "Questo campo è obbligatorio."
+
+#: includes/functions.yith-pos-core.php:490
+msgid "Opened"
+msgstr "Aperta"
+
+#: includes/functions.yith-pos-core.php:491
+msgid "Closed"
+msgstr "Chiusa"
+
+#: includes/functions.yith-pos-core.php:840
+#: views/metabox/receipt-preview-template.php:86 dist/pos/index.js:22
+msgid "Change"
+msgstr "Resto"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:26
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:62
+#: views/metabox/receipt-preview-template.php:80
+msgid "Cash"
+msgstr "Contanti"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:27
+msgid "Allow cash payments."
+msgstr "Abilita pagamenti in contanti."
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:52
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:50
+msgid "Enable/Disable"
+msgstr "Abilita/Disabilita"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:54
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:52
+msgid "This is a required payment"
+msgstr "Questo metodo di pagamento è obbligatorio"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:59
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:57
+msgid "Title"
+msgstr "Titolo"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:61
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:59
+msgid "This is the title for the Cash Payment."
+msgstr "Imposta qui il titolo per il Pagamento in contanti."
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:66
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:64
+msgid "Description"
+msgstr "Descrizione"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:68
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:69
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:66
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:67
+msgid "This payment method is for YITH Point of Sale for WooCommerce."
+msgstr ""
+"Questo metodo di pagamento viene installato e utilizzato da YITH Point of "
+"Sale for WooCommerce."
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:73
+msgid "Instructions"
+msgstr "Istruzioni"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:75
+msgid "No instructions."
+msgstr "Non sono disponibili istruzioni."
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:94
+msgid "Paid via Cash"
+msgstr "Pagato in contanti"
+
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:26
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:60
+msgid "Chip and Pin"
+msgstr "Carta"
+
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:27
+msgid "Allow Credit Card payments."
+msgstr "Abilita pagamenti con carta."
+
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:85
+msgid "Paid by Credit Card"
+msgstr "Pagato con carta di credito"
+
+#: includes/integrations/plugins-list.php:17
+msgid ""
+"Generate barcodes for your products, in the product details page and use "
+"them to scan products in POS."
+msgstr ""
+"Genera il codice a barre dalla pagina dettaglio prodotto e usalo per cercare "
+"il prodotto dalla vista POS."
+
+#: includes/rest-api/Controllers/Version1/class.yith-pos-wc-rest-registers-controller.php:69
+msgid "Unique identifier for the resource."
+msgstr "Identificatore unico per la risorsa."
+
+#: includes/rest-api/Controllers/Version1/class.yith-pos-wc-rest-registers-controller.php:152
+msgid "Unique identifier for the object."
+msgstr "Identificatore unico per l'oggetto."
+
+#: includes/rest-api/Controllers/Version1/class.yith-pos-wc-rest-registers-controller.php:158
+msgid "Register Name."
+msgstr "Nome della cassa."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:79
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:78
+msgid "Invalid response from data store."
+msgstr "Risposta non valida dall'archivio dati."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:153
+msgid "Cashier ID."
+msgstr "ID cassiere."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:159
+msgid "Amount of items sold."
+msgstr "Numero di articoli venduti."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:165
+msgid "Total Sales."
+msgstr "Totale vendite."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:171
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:168
+msgid "Number of orders."
+msgstr "Numero di ordini."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:177
+msgid "Number of products."
+msgstr "Numero di prodotti."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:187
+msgid "Cashier's name."
+msgstr "Nome del cassiere."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:205
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:194
+msgid "Current page of the collection."
+msgstr "Pagina attuale della collezione."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:213
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:202
+msgid "Maximum number of items to be returned in result set."
+msgstr "Numero massimo di articoli da mostrare come risultati."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:222
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:211
+msgid ""
+"Limit response to resources published after a given ISO8601 compliant date."
+msgstr ""
+"Limita la risposta alle risorse pubblicate dopo una data conforme "
+"all'ISO8601."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:228
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:217
+msgid ""
+"Limit response to resources published before a given ISO8601 compliant date."
+msgstr ""
+"Limita la risposta alle risorse pubblicate prima di una data conforme "
+"all'ISO8601."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:234
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:223
+msgid "Order sort attribute ascending or descending."
+msgstr "Ordinamento crescente o decrescente."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:241
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:230
+msgid "Sort collection by object attribute."
+msgstr "Ordina la collezione in base all'attributo dell'oggetto."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:260
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:240
+msgid "Time interval to use for buckets in the returned data."
+msgstr "Intervallo di tempo da utilizzare per i bucket nei dati restituiti."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:274
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:254
+msgid "Limit result set to items that have the specified order status."
+msgstr ""
+"Limita i risultati a tutti gli articoli che includono lo stato dell'ordine "
+"selezionato."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:284
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:264
+msgid "Limit result set to items that don't have the specified order status."
+msgstr ""
+"Limita i risultati a tutti gli articoli che non includono lo stato "
+"dell'ordine selezionato."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:294
+msgid "Limit result set to all items that have the specified cashier."
+msgstr ""
+"Limita i risultati a tutti gli articoli che includono il cassiere "
+"selezionato."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:303
+msgid "Add additional info about each cashier to the report."
+msgstr "Aggiungi al report altre informazioni su ogni cassiere."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:311
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:283
+msgid "The Register."
+msgstr "La cassa."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:318
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:290
+msgid "The Store."
+msgstr "Il negozio."
+
+#: includes/rest-api/Reports/Cashiers/DataStore.php:229
+#: includes/rest-api/Reports/PaymentMethods/DataStore.php:270
+msgid "Sorry, fetching data failed."
+msgstr "Recupero dati non riuscito."
+
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:156
+msgid "Payment Method."
+msgstr "Metodo di pagamento."
+
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:162
+msgid "Payment Method Name."
+msgstr "Nome metodo di pagamento."
+
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:174
+msgid "Amount."
+msgstr "Importo."
+
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:275
+msgid "Include payment methods with no sale."
+msgstr "Includi i metodi di pagamento senza vendite."
+
+#. translators: %s is the plugin name.
+#: init.php:39
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"%s è abilitato ma non in funzione. Richiede WooCommerce per funzionare "
+"correttamente."
+
+#: plugin-options/metabox/receipt-options.php:15
+msgid "Update Receipt"
+msgstr "Aggiorna scontrino"
+
+#: plugin-options/metabox/receipt-options.php:17
+msgid "Move to trash"
+msgstr "Elimina"
+
+#: plugin-options/metabox/receipt-options.php:19
+msgid "Save Receipt"
+msgstr "Salva scontrino"
+
+#: plugin-options/metabox/receipt-options.php:30
+msgid "General"
+msgstr "Generali"
+
+#: plugin-options/metabox/receipt-options.php:34
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: plugin-options/metabox/receipt-options.php:38
+msgid "Receipt name"
+msgstr "Nome scontrino"
+
+#: plugin-options/metabox/receipt-options.php:40
+msgid "Enter a name to identify this receipt template"
+msgstr "Scegli un nome per identificare questo template"
+
+#: plugin-options/metabox/receipt-options.php:42
+msgid "The receipt name is required."
+msgstr "Devi specificare un nome per questo scontrino."
+
+#: plugin-options/metabox/receipt-options.php:46
+msgid "Receipt Header"
+msgstr "Intestazione scontrino"
+
+#: plugin-options/metabox/receipt-options.php:50
+msgid "Logo"
+msgstr "Logo"
+
+#: plugin-options/metabox/receipt-options.php:53
+msgid ""
+"Upload your logo to customize the receipt. Supported image formats : gif, "
+"jpg, jpeg, png."
+msgstr ""
+"Carica il tuo logo e personalizza lo scontrino. Formati immagine supportati: "
+"gif, jpg, jpeg, png."
+
+#: plugin-options/metabox/receipt-options.php:57 dist/pos/index.js:22
+msgid "Name"
+msgstr "Nome"
+
+#: plugin-options/metabox/receipt-options.php:59
+msgid "Show or hide the Store name in this receipt"
+msgstr "Mostra o nascondi il nome del negozio in questo scontrino"
+
+#: plugin-options/metabox/receipt-options.php:64
+msgid "Show VAT"
+msgstr "Mostra l'IVA"
+
+#: plugin-options/metabox/receipt-options.php:66
+msgid "Show or hide the VAT number in this receipt"
+msgstr "Mostra o nascondi il numero di partita IVA in questo scontrino"
+
+#: plugin-options/metabox/receipt-options.php:71
+msgid "VAT label"
+msgstr "Nome campo IVA"
+
+#: plugin-options/metabox/receipt-options.php:72
+msgid "Enter the label for VAT field. Default: VAT"
+msgstr ""
+"Scegli il testo da mostrare come titolo del campo IVA. Predefinito: IVA"
+
+#: plugin-options/metabox/receipt-options.php:83
+#: plugin-options/metabox/store-options.php:61
+#: views/panel/store-wizard-summary.php:34 dist/pos/index.js:22
+msgid "Address"
+msgstr "Indirizzo"
+
+#: plugin-options/metabox/receipt-options.php:84
+msgid "Show or hide the Address of the store in this receipt"
+msgstr ""
+"Scegli se mostrare o nascondere l'indirizzo del negozio in questo scontrino"
+
+#: plugin-options/metabox/receipt-options.php:90
+#: plugin-options/metabox/store-options.php:86
+msgid "Contact Info"
+msgstr "Informazioni di contatto"
+
+#: plugin-options/metabox/receipt-options.php:91
+msgid "Show or hide the Contact Info of the store in this receipt"
+msgstr ""
+"Scegli se mostrare o nascondere le informazioni di contatto del negozio in "
+"questo scontrino"
+
+#: plugin-options/metabox/receipt-options.php:98
+#: plugin-options/metabox/store-options.php:90
+#: views/panel/store-wizard-summary.php:38 dist/pos/index.js:22
+msgid "Phone"
+msgstr "Telefono"
+
+#: plugin-options/metabox/receipt-options.php:110
+#: plugin-options/metabox/store-options.php:102
+#: views/panel/store-wizard-summary.php:46
+msgid "E-mail"
+msgstr "Email"
+
+#: plugin-options/metabox/receipt-options.php:122
+#: plugin-options/metabox/store-options.php:96
+#: views/panel/store-wizard-summary.php:42
+msgid "Fax"
+msgstr "Fax"
+
+#: plugin-options/metabox/receipt-options.php:135
+#: plugin-options/metabox/store-options.php:108
+#: views/panel/store-wizard-summary.php:50
+msgid "Website"
+msgstr "Sito web"
+
+#: plugin-options/metabox/receipt-options.php:145
+msgid "Socials"
+msgstr "Social"
+
+#: plugin-options/metabox/receipt-options.php:146
+msgid "Show or hide the socials of the store in this receipt"
+msgstr ""
+"Scegli se mostrare o nascondere i social del negozio in questo scontrino"
+
+#: plugin-options/metabox/receipt-options.php:153
+#: plugin-options/metabox/store-options.php:118
+#: views/panel/store-wizard-summary.php:54
+msgid "Facebook"
+msgstr "Facebook"
+
+#: plugin-options/metabox/receipt-options.php:165
+#: plugin-options/metabox/store-options.php:124
+#: views/panel/store-wizard-summary.php:58
+msgid "Twitter"
+msgstr "Twitter"
+
+#: plugin-options/metabox/receipt-options.php:177
+#: plugin-options/metabox/store-options.php:130
+#: views/panel/store-wizard-summary.php:62
+msgid "Instagram"
+msgstr "Instagram"
+
+#: plugin-options/metabox/receipt-options.php:190
+#: plugin-options/metabox/store-options.php:136
+#: views/panel/store-wizard-summary.php:66
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugin-options/metabox/receipt-options.php:201
+msgid "Order Info"
+msgstr "Dettagli ordine"
+
+#: plugin-options/metabox/receipt-options.php:205
+msgid "Show Order Date"
+msgstr "Mostra la data dell'ordine"
+
+#: plugin-options/metabox/receipt-options.php:206
+msgid "Show or hide the order date in this receipt"
+msgstr ""
+"Scegli se mostrare o nascondere la data dell'ordine in questo scontrino"
+
+#: plugin-options/metabox/receipt-options.php:212
+msgid "Order Date label"
+msgstr "Nome campo data"
+
+#: plugin-options/metabox/receipt-options.php:213
+msgid "Enter the label for Order Date field"
+msgstr "Personalizza il titolo del campo \"Data dell'ordine\""
+
+#: plugin-options/metabox/receipt-options.php:224
+msgid "Show Order Number"
+msgstr "Mostra il numero d'ordine"
+
+#: plugin-options/metabox/receipt-options.php:225
+msgid "Show or hide the order number in this receipt"
+msgstr ""
+"Scegli se mostrare o nascondere il numero dell'ordine in questo scontrino"
+
+#: plugin-options/metabox/receipt-options.php:231
+msgid "Order Number label"
+msgstr "Nome campo \"Numero d'ordine\""
+
+#: plugin-options/metabox/receipt-options.php:232
+msgid "Enter the label for Order Number field"
+msgstr "Personalizza il titolo del campo \"Numero d'ordine\""
+
+#: plugin-options/metabox/receipt-options.php:243
+msgid "Show Customer Name"
+msgstr "Mostra il nome del cliente"
+
+#: plugin-options/metabox/receipt-options.php:244
+msgid ""
+"Show or hide the customer name in this receipt (not available in guest "
+"register)"
+msgstr ""
+"Mostra o nascondi il nome del cliente in questo scontrino (non disponibile "
+"nel caso di Cassa amica)"
+
+#: plugin-options/metabox/receipt-options.php:250
+msgid "Customer label"
+msgstr "Nome campo \"Cliente\""
+
+#: plugin-options/metabox/receipt-options.php:251
+msgid "Enter the label for Customer field"
+msgstr "Personalizza il testo per il campo \"Cliente\""
+
+#: plugin-options/metabox/receipt-options.php:262
+msgid "Show Register Name"
+msgstr "Mostra il nome della cassa"
+
+#: plugin-options/metabox/receipt-options.php:263
+msgid ""
+"Show or hide the cashiers name in this receipt (not available in guest "
+"register)"
+msgstr ""
+"Scegli se mostrare o nascondere il nome dei cassieri in questo scontrino "
+"(non disponibile nel caso di Cassa ospite)"
+
+#: plugin-options/metabox/receipt-options.php:269
+msgid "Register label"
+msgstr "Nome campo \"Cassa\""
+
+#: plugin-options/metabox/receipt-options.php:270
+msgid "Enter the label for Register field"
+msgstr "Personalizza il testo del campo \"Cassa\""
+
+#: plugin-options/metabox/receipt-options.php:281
+msgid "Show Cashier Name"
+msgstr "Mostra il nome del cassiere"
+
+#: plugin-options/metabox/receipt-options.php:282
+msgid ""
+"Show or hide the cashier name in this receipt (not available in guest "
+"register)"
+msgstr ""
+"Scegli se mostrare o nascondere il nome del cassiere in questo scontrino "
+"(non disponibile nel caso di Cassa ospite)"
+
+#: plugin-options/metabox/receipt-options.php:288
+msgid "Cashier label"
+msgstr "Nome campo \"Cassiere\""
+
+#: plugin-options/metabox/receipt-options.php:289
+msgid "Enter the label for Cashier field"
+msgstr "Personalizza il testo del campo \"Cassiere\""
+
+#: plugin-options/metabox/receipt-options.php:301
+msgid "Receipt footer"
+msgstr "Footer scontrino"
+
+#: plugin-options/metabox/receipt-options.php:305
+msgid "Footer text"
+msgstr "Testo in calce"
+
+#: plugin-options/metabox/receipt-options.php:306
+msgid "Enter optional text for footer area in receipt template"
+msgstr "Inserisci un testo da visualizzare in calce allo scontrino (opzionale)"
+
+#: plugin-options/metabox/receipt-options.php:320
+msgid "Receipt Preview"
+msgstr "Anteprima scontrino"
+
+#: plugin-options/metabox/receipt-options.php:327
+msgid "Print Preview"
+msgstr "Anteprima di stampa"
+
+#: plugin-options/metabox/receipt-options.php:341
+msgid "Print Example"
+msgstr "Stampa esempio"
+
+#: plugin-options/metabox/register-options.php:18
+msgid "Register name"
+msgstr "Nome cassa"
+
+#: plugin-options/metabox/register-options.php:19
+msgid "Enter a name to identify this Register."
+msgstr "Scegli un nome per identificare questa cassa."
+
+#: plugin-options/metabox/register-options.php:22
+msgid "The Register name is required."
+msgstr "È obbligatorio dare un nome alla cassa."
+
+#: plugin-options/metabox/register-options.php:29
+msgid "Scan barcodes"
+msgstr "Scansiona codici a barre"
+
+#: plugin-options/metabox/register-options.php:30
+msgid ""
+"If enabled, products can be added to the cart by scanning their barcodes."
+msgstr ""
+"Se abilitato, potrai aggiungere i prodotti al carrello tramite scansione del "
+"codice a barre."
+
+#: plugin-options/metabox/register-options.php:35
+#: plugin-options/settings-options.php:88
+msgid "Payment methods"
+msgstr "Metodi di pagamento"
+
+#: plugin-options/metabox/register-options.php:42
+msgid "Select products to show"
+msgstr "Seleziona i prodotti da mostrare"
+
+#: plugin-options/metabox/register-options.php:45
+msgid "All products"
+msgstr "Tutti i prodotti"
+
+#: plugin-options/metabox/register-options.php:46
+msgid "Specific products / product categories"
+msgstr "Specifici prodotti / categorie"
+
+#: plugin-options/metabox/register-options.php:71
+msgid "In Register dashboard show"
+msgstr "Nella dashboard della cassa mostra"
+
+#: plugin-options/metabox/register-options.php:75
+msgid ""
+"Set Categories > Products if you want to show your product categories and "
+"the products of each category in your Register dashboard."
+msgstr ""
+"Imposta 'Categorie > Prodotti' se nella schermata della cassa vuoi mostrare "
+"un elenco di categorie e solo dopo averne selezionata una i prodotti in essa "
+"contenuti."
+
+#: plugin-options/metabox/register-options.php:76
+msgid ""
+"Set Only Products if you want to show just your products without categories"
+msgstr ""
+"Imposta 'Solo prodotti' se vuoi mostrare tutti i prodotti senza suddivisione "
+"in categorie"
+
+#: plugin-options/metabox/register-options.php:80
+msgid "Categories > Products"
+msgstr "Categorie > Prodotti"
+
+#: plugin-options/metabox/register-options.php:81
+msgid "Only products"
+msgstr "Solo prodotti"
+
+#: plugin-options/metabox/register-options.php:87
+msgid "Register visibility"
+msgstr "Visibilità cassa"
+
+#: plugin-options/metabox/register-options.php:89
+msgid "Set if you want to show this Register for specific Cashiers."
+msgstr ""
+"Seleziona se vuoi rendere visibile questa cassa solo ad alcuni cassieri "
+"selezionati."
+
+#: plugin-options/metabox/register-options.php:89
+msgid "You must set at least one Cashier in Store."
+msgstr "Devi impostare almeno un cassiere per il negozio."
+
+#: plugin-options/metabox/register-options.php:91 dist/pos/index.js:22
+msgid "All"
+msgstr "Tutti"
+
+#: plugin-options/metabox/register-options.php:92
+msgid "Hide / Show to specific Cashiers"
+msgstr "Mostra / nascondi a cassieri selezionati"
+
+#: plugin-options/metabox/register-options.php:95
+msgid "You must add at least one Cashier to activate this option"
+msgstr "Devi aggiungere almeno un cassiere per attivare quest'opzione"
+
+#: plugin-options/metabox/register-options.php:114
+msgid "Enable Register closing report"
+msgstr "Abilita il report di chiusura cassa"
+
+#: plugin-options/metabox/register-options.php:115
+msgid ""
+"If enabled, the Cashier will see the final report before closing the "
+"Register."
+msgstr ""
+"Se abilitato, il cassiere vedrà il riepilogo finale alla chiusura della "
+"cassa."
+
+#: plugin-options/metabox/register-options.php:120
+msgid "Enable Register final notes"
+msgstr "Abilita note di chiusura cassa"
+
+#: plugin-options/metabox/register-options.php:121
+msgid ""
+"If enabled, the Cashier will be able to add notes before closing the "
+"Register."
+msgstr ""
+"Se abilitato, il cassiere potrà aggiungere delle note alla chiusura della "
+"cassa."
+
+#: plugin-options/metabox/store-options.php:14
+msgid "Save"
+msgstr "Salva"
+
+#: plugin-options/metabox/store-options.php:24
+msgid "Store Info"
+msgstr "Informazioni negozio"
+
+#: plugin-options/metabox/store-options.php:44
+msgid "General Info"
+msgstr "Informazioni generali"
+
+#: plugin-options/metabox/store-options.php:51
+msgid "Enter a name to identify this store."
+msgstr "Inserisci un nome per identificare questo negozio."
+
+#: plugin-options/metabox/store-options.php:52
+msgid "The store name is required"
+msgstr "È obbligatorio dare un nome al negozio"
+
+#: plugin-options/metabox/store-options.php:56
+#: views/panel/store-wizard-summary.php:30
+msgid "VAT Number"
+msgstr "Partita IVA"
+
+#: plugin-options/metabox/store-options.php:58
+msgid "Enter a VAT number for this store."
+msgstr "Inserisci il numero di partita IVA di questo negozio."
+
+#: plugin-options/metabox/store-options.php:65
+msgid "Full Address"
+msgstr "Indirizzo completo"
+
+#: plugin-options/metabox/store-options.php:66
+msgid "Enter a street address for this store location."
+msgstr "Inserisci l'indirizzo di questo negozio."
+
+#: plugin-options/metabox/store-options.php:70 dist/pos/index.js:22
+msgid "City"
+msgstr "Città"
+
+#: plugin-options/metabox/store-options.php:71
+msgid "Enter the city in which this store is located."
+msgstr "Inserisci la città in cui si trova il negozio."
+
+#: plugin-options/metabox/store-options.php:75
+msgid "Country / State"
+msgstr "Stato / Provincia"
+
+#: plugin-options/metabox/store-options.php:76
+msgid "Enter the Country / State / Province in which this store is located."
+msgstr "Inserisci il paese e la provincia in cui si trova il negozio."
+
+#: plugin-options/metabox/store-options.php:81
+msgid "Postcode / ZIP"
+msgstr "CAP"
+
+#: plugin-options/metabox/store-options.php:82
+msgid "Enter the postal code of this address."
+msgstr "Inserisci il CAP per questo indirizzo."
+
+#: plugin-options/metabox/store-options.php:91
+msgid "Enter the phone number of this store."
+msgstr "Inserisci il numero di telefono di questo negozio."
+
+#: plugin-options/metabox/store-options.php:97
+msgid "Enter the fax number of this store."
+msgstr "Inserisci il numero di fax di questo negozio."
+
+#: plugin-options/metabox/store-options.php:103
+msgid "Enter the e-mail address of this store."
+msgstr "Inserisci l'indirizzo email di questo negozio."
+
+#: plugin-options/metabox/store-options.php:105
+msgid "Please provide a valid email address"
+msgstr "Inserisci un valido indirizzo email"
+
+#: plugin-options/metabox/store-options.php:109
+msgid "Enter the website url of this store."
+msgstr "Inserisci l'URL del sito web di questo negozio."
+
+#: plugin-options/metabox/store-options.php:111
+msgid "Please provide a valid website url"
+msgstr "Inserisci un valido URL"
+
+#: plugin-options/metabox/store-options.php:114
+msgid "Social"
+msgstr "Social"
+
+#: plugin-options/metabox/store-options.php:119
+msgid "Enter the Facebook url of this store."
+msgstr "Inserisci l'URL della pagina/profilo Facebook del negozio."
+
+#: plugin-options/metabox/store-options.php:125
+msgid "Enter the Twitter ID or username of this store."
+msgstr "Inserisci l'ID o il nome utente Twitter di questo negozio."
+
+#: plugin-options/metabox/store-options.php:131
+msgid "Enter the Instagram ID or username of this store."
+msgstr "Inserisci l'ID Instagram o il nome utente del negozio."
+
+#: plugin-options/metabox/store-options.php:137
+msgid "Enter the Youtube username for this store."
+msgstr "Inserisci il nome utente dell'account YouTube del negozio."
+
+#: plugin-options/metabox/store-options.php:165
+msgid "Managers "
+msgstr "Manager "
+
+#: plugin-options/metabox/store-options.php:170
+msgid ""
+"A <strong>manager</strong> has full access to all registers and "
+"functionalities, assigned to this store.<br/>Please note, that <strong>you "
+"have to assign at least one manager</strong> before proceeding to the next "
+"step."
+msgstr ""
+"Un <strong>manager</strong> ha accesso a tutte le casse e a tutte le "
+"funzionalità del negozio.<br/>Attenzione: <strong>devi assegnare almeno un "
+"manager</strong> prima di procedere con le impostazioni dello step "
+"successivo."
+
+#: plugin-options/metabox/store-options.php:174
+msgid "Choose managers from your \"Users\" list"
+msgstr "Scegli i manager dall'elenco Utenti"
+
+#: plugin-options/metabox/store-options.php:178
+#: plugin-options/metabox/store-options.php:223
+msgid "Remove All"
+msgstr "Rimuovi tutti"
+
+#: plugin-options/metabox/store-options.php:178
+msgid "Click and type at least 1 letter to search and add a user as a manager."
+msgstr ""
+"Clicca e inserisci almeno un carattere per avviare la ricerca e selezionare "
+"un utente come manager."
+
+#: plugin-options/metabox/store-options.php:178
+msgid ""
+"<strong>Note:</strong> a Contributor and a Subscriber can not be added as "
+"Manager."
+msgstr ""
+"<strong>Nota:</strong> gli utenti con il ruolo di Collaboratore e "
+"Sottoscrittore non possono essere aggiunti come manager."
+
+#: plugin-options/metabox/store-options.php:182
+msgid "Search Managers"
+msgstr "Cerca manager"
+
+#: plugin-options/metabox/store-options.php:183
+msgid "You have to set at least one manager to proceed to next step"
+msgstr ""
+"Devi impostare almeno un manager per procedere con le impostazioni del "
+"prossimo step"
+
+#: plugin-options/metabox/store-options.php:194
+msgid "Do you need to setup a new manager profile?"
+msgstr "Devi creare un nuovo profilo manager?"
+
+#: plugin-options/metabox/store-options.php:198
+msgid "Create new manager"
+msgstr "Crea un nuovo manager"
+
+#: plugin-options/metabox/store-options.php:199
+msgid "Close new manager creation"
+msgstr "Chiudi la procedura di creazione del manager"
+
+#: plugin-options/metabox/store-options.php:200
+msgid "Create new store manager"
+msgstr "Crea un nuovo manager del negozio"
+
+#: plugin-options/metabox/store-options.php:201
+msgid "Create manager"
+msgstr "Crea manager"
+
+#: plugin-options/metabox/store-options.php:216
+#, fuzzy
+msgid ""
+"A <strong>Cashier</strong> might have limited access to the store Registers "
+"(e.g. being allowed to use only Register 1, but not Register 2). You can set "
+"these limits when adding a register."
+msgstr ""
+"<p class=\"section-description\">Un <strong>cassiere</strong> potrebbe avere "
+"accesso limitato alle casse del negozio (es. potrebbe avere accesso solo "
+"alla cassa 1, ma non alla cassa 2). Puoi impostare queste restrizioni "
+"durante la creazione di una cassa.</p>"
+
+#: plugin-options/metabox/store-options.php:220
+msgid "Choose Cashiers from your \"Users\" list"
+msgstr "Scegli i cassieri dall'elenco Utenti"
+
+#: plugin-options/metabox/store-options.php:223
+msgid ""
+"Click and type at least 3 letters to search and add a user as a manager."
+msgstr ""
+"Clicca e inserisci almeno 3 caratteri per avviare la ricerca e selezionare "
+"un utente come manager."
+
+#: plugin-options/metabox/store-options.php:223
+msgid ""
+"<strong>Note:</strong> a Contributor and a Subscriber can not be added as "
+"cashiers."
+msgstr ""
+"<strong>Nota:</strong> gli utenti con il ruolo di Collaboratore e "
+"Sottoscrittore non possono essere aggiunti come cassieri."
+
+#: plugin-options/metabox/store-options.php:227
+msgid "Search Cashiers"
+msgstr "Cerca cassieri"
+
+#: plugin-options/metabox/store-options.php:228
+msgid "You have to set at least one Cashier to proceed to the next step"
+msgstr ""
+"Devi impostare almeno un cassiere per procedere con le impostazioni del "
+"prossimo step"
+
+#: plugin-options/metabox/store-options.php:238
+msgid "Do you need to set up a new Cashier profile?"
+msgstr "Devi creare un nuovo profilo cassiere?"
+
+#: plugin-options/metabox/store-options.php:242
+msgid "Create new Cashier"
+msgstr "Crea un nuovo cassiere"
+
+#: plugin-options/metabox/store-options.php:243
+#: plugin-options/metabox/store-options.php:244
+msgid "Create new store Cashier"
+msgstr "Crea un nuovo cassiere per il negozio"
+
+#: plugin-options/metabox/store-options.php:245
+msgid "Create cashier"
+msgstr "Crea cassiere"
+
+#: plugin-options/settings-options.php:19
+msgctxt "Panel: page title"
+msgid "General Settings"
+msgstr "Impostazioni generali"
+
+#: plugin-options/settings-options.php:24
+msgid "Enable sound effect"
+msgstr "Abilita suoni"
+
+#: plugin-options/settings-options.php:25
+msgid "Enable or disable the sound effect when a product is added to cart"
+msgstr ""
+"Abilia o disabilita gli effetti sonori per ogni prodotto aggiunto al carrello"
+
+#: plugin-options/settings-options.php:32
+msgid "Close popup windows when clicking on the background"
+msgstr "Chiudi le modali cliccando sullo sfondo"
+
+#: plugin-options/settings-options.php:33
+msgid ""
+"If enabled, all popup windows will be closed by clicking on the background"
+msgstr ""
+"Se abilitato, potrai chiudere tutte le finestre modali cliccando sullo sfondo"
+
+#: plugin-options/settings-options.php:43
+#: plugin-options/settings-options.php:47
+msgid "Login page"
+msgstr "Pagina di login"
+
+#: plugin-options/settings-options.php:48
+msgid "Select the page of login"
+msgstr "Seleziona la pagina di login"
+
+#: plugin-options/settings-options.php:55
+msgid "Login logo"
+msgstr "Logo della pagina login"
+
+#: plugin-options/settings-options.php:56
+msgid "Select logo for login form"
+msgstr "Seleziona un logo per il modulo di login"
+
+#: plugin-options/settings-options.php:63
+msgid "Login background image"
+msgstr "Immagine di sfondo della pagina login"
+
+#: plugin-options/settings-options.php:64
+msgid "Select image for background login page"
+msgstr "Seleziona l'immagine di sfondo per la pagina di login"
+
+#: plugin-options/settings-options.php:70
+msgid "Login background color"
+msgstr "Colore di sfondo della pagina login"
+
+#: plugin-options/settings-options.php:71
+msgid "Select the background color for login page"
+msgstr "Seleziona il colore di sfondo della pagina di login"
+
+#: plugin-options/settings-options.php:81
+msgid "Payment method settings"
+msgstr "Impostazioni metodi di pagamento"
+
+#: plugin-options/settings-options.php:89
+msgid ""
+"Select the global payment methods. These methods can be overridden for every "
+"single Register."
+msgstr "Seleziona i metodi di pagamento predefiniti"
+
+#: plugin-options/settings-options.php:98
+msgid "Preset settings"
+msgstr "Impostazioni pulsanti predefiniti"
+
+#: plugin-options/settings-options.php:105
+msgid "Number Keyboard presets"
+msgstr "Valori predefiniti del tastierino numerico"
+
+#: plugin-options/settings-options.php:106
+msgid "Set the percentage discount presets within the number keyboard"
+msgstr ""
+"Imposta gli sconti predefiniti da mostrare nella modale con la tastiera "
+"alfanumerica"
+
+#: plugin-options/settings-options.php:117
+msgid "Fee and Discount presets"
+msgstr "Valori predefiniti per costi extra e sconti"
+
+#: plugin-options/settings-options.php:118
+msgid "Set the percentage discount presets within the fee and discount editor"
+msgstr ""
+"Imposta gli sconti predefiniti da mostrare in caso di aggiunta di uno sconto "
+"o di un costo extra."
+
+#: plugin-options/settings-options.php:129
+msgid "Stock Management"
+msgstr "Gestione magazzino"
+
+#: plugin-options/settings-options.php:133
+msgid "Show stock on register"
+msgstr "Mostra numero di prodotti disponibili in cassa"
+
+#: plugin-options/settings-options.php:134
+msgid "Choose if to show the stock count on the register"
+msgstr ""
+"Scegli se mostrare il numero di articoli disponibili nella schermata della "
+"cassa"
+
+#: plugin-options/settings-options.php:141
+msgid "Enable multistock"
+msgstr "Abilita gestione multi magazzino"
+
+#: plugin-options/settings-options.php:142
+msgid "Choose if enable or disable the multistock option"
+msgstr "Scegli se abilitare la gestione della disponibilità in più magazzini"
+
+#: plugin-options/settings-options.php:149
+msgid "Products of a store without stock are"
+msgstr "I prodotti di uno store senza impostazioni di magazzino saranno"
+
+#: plugin-options/settings-options.php:153
+msgid ""
+"Choose how to manage the purchase of products when no stock value has been "
+"set for a specific store."
+msgstr ""
+"Scegli come gestire l'acquisto di prodotti nei quali, per uno specifico "
+"punto vendita, non sono state impostate informazioni sulla disponibilità."
+
+#: plugin-options/settings-options.php:154
+msgid ""
+"When you enable the multi-stock option, you'll have to set the product stock "
+"for every store. If one of the store stock is not specified, then, this "
+"settings will apply."
+msgstr ""
+"Quando attivi l'opzione multi-stock, dovrai impostare una disponibilità di "
+"magazzino per ciascun punto vendita. Nel caso in cui non venga specificato "
+"un valore per uno o più negozi, si applicheranno le seguenti impostazioni."
+
+#: plugin-options/settings-options.php:161
+msgid "purchasable without stock management"
+msgstr "acquistabili, senza intaccare la disponibilità del magazzino"
+
+#: plugin-options/settings-options.php:162
+msgid "purchasable from the general stock"
+msgstr "acquistabili dallo stock generale"
+
+#: plugin-options/settings-options.php:163
+msgid "non-purchasable"
+msgstr "non acquistabili"
+
+#: plugin-options/settings-options.php:175
+msgid "Color Settings"
+msgstr "Impostazioni colori"
+
+#: plugin-options/settings-options.php:179
+msgid "Primary color"
+msgstr "Colore primario"
+
+#: plugin-options/settings-options.php:180
+msgid "Select the primary color for Registers"
+msgstr "Seleziona il colore primario per le casse"
+
+#: plugin-options/settings-options.php:187
+msgid "Secondary color"
+msgstr "Colore secondario"
+
+#: plugin-options/settings-options.php:188
+msgid "Select the secondary color for Registers"
+msgstr "Seleziona il colore secondario per le casse"
+
+#: plugin-options/settings-options.php:195
+msgid "Products grid background"
+msgstr "Sfondo griglia prodotti"
+
+#: plugin-options/settings-options.php:196
+msgid "Select the background color for products grid"
+msgstr "Seleziona il colore di sfondo per la griglia prodotti"
+
+#: plugin-options/settings-options.php:203
+msgid "Product title background"
+msgstr "Sfondo titolo prodotto"
+
+#: plugin-options/settings-options.php:204
+msgid "Select the background color for product title"
+msgstr "Seleziona il colore di sfondo per il titolo del prodotto"
+
+#: plugin-options/settings-options.php:211
+msgid "Saved cart buttons background"
+msgstr "Colore pulsanti Carrelli salvati"
+
+#: plugin-options/settings-options.php:212
+msgid "Select the background color for saved cart buttons"
+msgstr "Seleziona il colore di sfondo per i pulsanti carrelli in pausa"
+
+#: plugin-options/settings-options.php:219
+msgid "Pay button background"
+msgstr "Colore pulsante Paga"
+
+#: plugin-options/settings-options.php:220
+msgid "Select the background color for pay button"
+msgstr "Seleziona il colore di sfondo del pulsante Paga"
+
+#: plugin-options/settings-options.php:227
+msgid "Note buttons background"
+msgstr "Colore pulsanti Note"
+
+#: plugin-options/settings-options.php:228
+msgid "Select the background color for note button"
+msgstr "Seleziona il colore di sfondo per il pulsante \"Nota\""
+
+#: plugin-options/settings-options.php:235
+msgid "Header background"
+msgstr "Colore barra in alto"
+
+#: plugin-options/settings-options.php:236
+msgid "Select the background color for header"
+msgstr "Seleziona il colore della barra in alto"
+
+#: templates/yith-pos-login.php:21
+msgid "Login"
+msgstr "Accedi"
+
+#: templates/yith-pos-page.php:45
+msgid ""
+"You are using an outdated browser; please update your browser or use a new "
+"generation web browser!"
+msgstr ""
+"Stai utilizzando una versione non aggiornata del browser; aggiorna il tuo "
+"browser oppure utilizzane uno di nuova generazione!"
+
+#: templates/yith-pos-store-register.php:18
+msgid "Sorry, you are not allowed to see this content"
+msgstr "Spiacenti, non hai accesso a questi contenuti"
+
+#: templates/yith-pos-store-register.php:32
+msgid "Choose Store and Register"
+msgstr "Scegli il negozio e la cassa"
+
+#. translators: %s is the Register name.
+#: templates/yith-pos-store-register.php:46
+msgid "Take over %s"
+msgstr "Entra al posto di %s"
+
+#. translators: 1. Register name; 2. user name.
+#: templates/yith-pos-store-register.php:53
+#, fuzzy
+msgid "%1$s is currently in use by %2$s."
+msgstr "%s al momento è utilizzata da %s."
+
+#. translators: %s is "Take over Register" text.
+#: templates/yith-pos-store-register.php:59
+msgid "Choose another Register or %s"
+msgstr "Scegli un'altra cassa oppure %s"
+
+#: templates/yith-pos-store-register.php:71
+msgid "Choose a Store"
+msgstr "Scegli un negozio"
+
+#: templates/yith-pos-store-register.php:81
+msgid "Choose a Register"
+msgstr "Scegli una cassa"
+
+#: views/fields/create-user.php:25
+msgid "Username"
+msgstr "Nome utente"
+
+#: views/fields/create-user.php:28
+msgid "Enter a username to identify this user."
+msgstr "Inserisci un nome utente per l'identificazione."
+
+#: views/fields/create-user.php:30
+msgid "The username is required and must be unique."
+msgstr "Il nome utente è un campo obbligatorio e deve essere univoco."
+
+#: views/fields/create-user.php:37 dist/pos/index.js:22
+msgid "Password"
+msgstr "Password"
+
+#: views/fields/create-user.php:40
+msgid "Enter a password for this user."
+msgstr "Inserisci una password per questo utente."
+
+#: views/fields/create-user.php:42
+msgid "You need to set a password to the user."
+msgstr "Devi impostare una password per questo utente."
+
+#: views/fields/create-user.php:49
+msgid "User Email"
+msgstr "Email utente"
+
+#: views/fields/create-user.php:52
+msgid "Enter the e-mail address of this user."
+msgstr "Inserisci un indirizzo email per questo utente."
+
+#: views/fields/create-user.php:54
+msgid "Enter a valid email. Must be unique for each user."
+msgstr ""
+"Inserisci un indirizzo email valido. Deve essere univoco per ciascun utente."
+
+#: views/fields/create-user.php:61
+msgid "First Name"
+msgstr "Nome"
+
+#: views/fields/create-user.php:64
+msgid "Enter the first name of this user."
+msgstr "Inserisci il nome dell'utente."
+
+#: views/fields/create-user.php:66
+msgid "You need to enter a name for this user."
+msgstr "Devi inserire un nome per questo utente."
+
+#: views/fields/create-user.php:73
+msgid "Last Name"
+msgstr "Cognome"
+
+#: views/fields/create-user.php:76
+msgid "Enter the last name of this user."
+msgstr "Inserisci il cognome dell'utente."
+
+#: views/fields/create-user.php:78
+msgid "You need to enter a last name for this user."
+msgstr "Devi inserire un cognome per questo utente."
+
+#: views/fields/show-cashiers.php:48
+msgid "Show Register to"
+msgstr "Mostra cassa a"
+
+#: views/fields/show-cashiers.php:49
+msgid "Hide Register to"
+msgstr "Nascondi cassa a"
+
+#: views/fields/show-cashiers.php:66
+msgid "Select a Cashier"
+msgstr "Seleziona un cassiere"
+
+#: views/fields/show-categories.php:34
+msgid "Search Category"
+msgstr "Cerca una categoria"
+
+#: views/fields/show-categories.php:43
+msgid "Category to"
+msgstr "Categoria da"
+
+#: views/fields/show-categories.php:54 views/fields/show-products.php:30
+msgid "Include"
+msgstr "Includere"
+
+#: views/fields/show-categories.php:55 views/fields/show-products.php:31
+msgid "Exclude"
+msgstr "Escludere"
+
+#: views/fields/show-products.php:19
+msgid "Product to"
+msgstr "Prodotto da"
+
+#: views/metabox/receipt-preview-template.php:28 dist/pos/index.js:22
+msgid "Phone:"
+msgstr "Telefono:"
+
+#: views/metabox/receipt-preview-template.php:31 dist/pos/index.js:22
+msgid "Email:"
+msgstr "Email:"
+
+#: views/metabox/receipt-preview-template.php:34 dist/pos/index.js:22
+msgid "Fax:"
+msgstr "Fax:"
+
+#: views/metabox/receipt-preview-template.php:37 dist/pos/index.js:22
+msgid "Web:"
+msgstr "Sito web:"
+
+#: views/metabox/receipt-preview-template.php:42 dist/pos/index.js:22
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: views/metabox/receipt-preview-template.php:45 dist/pos/index.js:22
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: views/metabox/receipt-preview-template.php:48 dist/pos/index.js:22
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: views/metabox/receipt-preview-template.php:52
+msgid "YouTube:"
+msgstr "YouTube:"
+
+#: views/metabox/receipt-preview-template.php:59
+#: views/metabox/receipt-preview-template.php:61
+#: views/metabox/receipt-preview-template.php:63
+#: views/metabox/receipt-preview-template.php:65
+msgid "Product"
+msgstr "Prodotto"
+
+#: views/metabox/receipt-preview-template.php:71 dist/pos/index.js:22
+msgid "Total"
+msgstr "Totale"
+
+#: views/metabox/receipt-preview-template.php:95
+msgid "Date"
+msgstr "Data"
+
+#: views/metabox/receipt-preview-template.php:98
+msgid "Order"
+msgstr "Ordine"
+
+#: views/metabox/receipt-preview-template.php:102
+msgid "Customer"
+msgstr "Cliente"
+
+#: views/metabox/receipt-preview-template.php:110 dist/dashboard/index.js:1
+#: dist/pos/index.js:22
+msgid "Cashier"
+msgstr "Cassiere"
+
+#: views/metabox/shop-order-pos-info-metabox.php:19
+msgid "Order made in store:"
+msgstr "Ordine in negozio:"
+
+#: views/metabox/shop-order-pos-info-metabox.php:38
+msgid "Payment methods:"
+msgstr "Metodi di pagamento:"
+
+#: views/metabox/store-registers-list-single.php:79
+msgid "Delete"
+msgstr "Elimina"
+
+#: views/metabox/store-registers-list-single.php:80 dist/pos/index.js:22
+msgid "Update"
+msgstr "Aggiorna"
+
+#: views/metabox/store-registers-list-single.php:81
+msgid "Create"
+msgstr "Crea"
+
+#: views/metabox/store-registers-list.php:17
+msgid "Registers of this store"
+msgstr "Casse di questo negozio"
+
+#: views/metabox/store-registers-list.php:45
+msgid "Create new Register"
+msgstr "Crea una nuova cassa"
+
+#: views/metabox/store-registers-list.php:46
+msgid "Close new Register creation"
+msgstr "Chiudi la procedura di creazione della nuova cassa"
+
+#: views/metabox/store-registers-list.php:47
+msgid "Create new register"
+msgstr "Crea una nuova cassa"
+
+#. translators: %s is the plugin name.
+#: views/panel/create-your-first-store.php:20
+msgid "Thanks for choosing %s!"
+msgstr "Grazie per aver scelto %s!"
+
+#. translators: %s is the plugin name.
+#: views/panel/create-your-first-store.php:21
+msgid ""
+"Now, the first step is to create a Store: after that, you will be able to "
+"use our powerful Register to sell your products."
+msgstr ""
+"Adesso, inizia dalla creazione del negozio: dopodiché potrai utilizzare il "
+"nostro registratore di cassa per vendere i tuoi prodotti."
+
+#: views/panel/create-your-first-store.php:28
+msgid "Create your first store"
+msgstr "Crea il tuo primo negozio"
+
+#. translators: 1. plugin name; 2. required plugin name.
+#: views/panel/dashboard.php:27
+#, fuzzy
+msgid "%1$s requires %2$s plugin to show reports!"
+msgstr ""
+"Per poter mostrare i report di %s è necessario installare e attivare il "
+"plugin %s!"
+
+#: views/panel/dashboard.php:42
+msgid "Activate WooCommerce Admin"
+msgstr "Attiva WooCommerce Admin"
+
+#: views/panel/dashboard.php:44
+msgid "You are using an outdated version of WooCommerce Admin"
+msgstr "Stai utilizzando una versione non aggiornata di WooCommerce Admin"
+
+#: views/panel/dashboard.php:49
+msgid "Update WooCommerce Admin"
+msgstr "Aggiorna WooCommerce Admin"
+
+#: views/panel/dashboard.php:55
+msgid "Install WooCommerce Admin"
+msgstr "Installa WooCommerce Admin"
+
+#: views/panel/store-wizard-nav.php:15
+msgid "Step 1"
+msgstr "Step 1"
+
+#: views/panel/store-wizard-nav.php:16 views/panel/store-wizard-summary.php:20
+msgid "Store info"
+msgstr "Informazioni negozio"
+
+#: views/panel/store-wizard-nav.php:20
+msgid "Step 2"
+msgstr "Step 2"
+
+#: views/panel/store-wizard-nav.php:25
+msgid "Step 3"
+msgstr "Step 3"
+
+#: views/panel/store-wizard-nav.php:31
+msgid "Step 4"
+msgstr "Step 4"
+
+#: views/panel/store-wizard-nav.php:32
+#: views/panel/store-wizard-pagination.php:21
+msgid "Save Store"
+msgstr "Salva negozio"
+
+#. translators: %s is the previous step number.
+#: views/panel/store-wizard-pagination.php:14
+msgid "Back to step %s"
+msgstr "Torna allo step %s"
+
+#. translators: %s is the next step number.
+#: views/panel/store-wizard-pagination.php:16
+msgid "Proceed to step %s"
+msgstr "Continua con lo step %s"
+
+#: views/panel/store-wizard-summary.php:117
+msgid "Guest Register"
+msgstr "Cassa amica"
+
+#: views/product/product-data-inventory.php:20
+msgid "POS Inventory"
+msgstr "Scorte in magazzino"
+
+#: views/product/product-data-inventory.php:24
+msgid "To enable the multistock, it is necessary activate the option in "
+msgstr "Per abilitare il multi-magazzino, devi aver attivato l'opzione da "
+
+#: views/product/product-data-inventory.php:24
+msgid "YITH > Point of Sale > Customization > Enable multistock"
+msgstr "YITH > Point of Sale > Personalizzazione > Abilita multi-magazzino"
+
+#: views/product/product-data-inventory.php:29
+msgid "Enable Multi Stock in POS"
+msgstr "Abilita gestione multi-magazzino in POS"
+
+#: views/product/product-data-inventory.php:46
+msgid "In store"
+msgstr "In negozio"
+
+#: views/product/product-data-inventory.php:61
+#: views/product/product-data-inventory.php:88
+msgid "Select Store"
+msgstr "Seleziona il negozio"
+
+#: views/product/product-data-inventory.php:70
+#: views/product/product-data-inventory.php:95
+msgid "set a stock of: "
+msgstr "imposta una disponibilità di: "
+
+#: views/product/product-data-inventory.php:72
+#: views/product/product-data-inventory.php:97
+msgid "units"
+msgstr "unità"
+
+#: views/product/product-data-inventory.php:79
+msgid "+ manage stock for another store"
+msgstr "+ gestisci la disponibilità per un altro negozio"
+
+#: views/product/product-data-inventory.php:105
+msgid "No Store found!"
+msgstr "Nessun negozio trovato!"
+
+#: dist/dashboard/index.js:1
+msgid "Loading..."
+msgstr "Carico..."
+
+#: dist/dashboard/index.js:1
+msgid "All Registers"
+msgstr "Tutte le casse"
+
+#: dist/dashboard/index.js:1
+msgid "Filter by Store"
+msgstr "Filtra per negozio"
+
+#: dist/dashboard/index.js:1
+msgid "All Stores"
+msgstr "Tutti i negozi"
+
+#: dist/dashboard/index.js:1
+msgid "Filter by Register"
+msgstr "Filtra per cassa"
+
+#: dist/dashboard/index.js:1
+msgid "Orders"
+msgstr "Ordini"
+
+#: dist/dashboard/index.js:1 dist/pos/index.js:22
+msgid "Total Sales"
+msgstr "Totale vendite"
+
+#: dist/dashboard/index.js:1 dist/pos/index.js:22
+msgid "Net Sales"
+msgstr "Vendite nette"
+
+#: dist/dashboard/index.js:1
+msgid "Average Order Value"
+msgstr "Scontrino medio"
+
+#: dist/dashboard/index.js:1
+msgid "Average Items Per Order"
+msgstr "Media articoli per ordine"
+
+#: dist/dashboard/index.js:1
+msgid "Items"
+msgstr "Articoli"
+
+#: dist/dashboard/index.js:1
+msgid "Customers"
+msgstr "Clienti"
+
+#: dist/dashboard/index.js:1
+msgid "Coupons"
+msgstr "Codici promozionali"
+
+#: dist/dashboard/index.js:1
+msgid "No data for the selected date range"
+msgstr "Nessun dato disponibile per l'intervallo di date selezionato"
+
+#: dist/dashboard/index.js:1 dist/pos/index.js:22
+msgid "Payment Method"
+msgstr "Metodo di pagamento"
+
+#: dist/dashboard/index.js:1 dist/pos/index.js:22
+msgid "Amount"
+msgstr "Importo"
+
+#: dist/dashboard/index.js:1
+msgid "Payment Methods"
+msgstr "Metodi di pagamento"
+
+#: dist/dashboard/index.js:1
+msgid "Top Cashiers"
+msgstr "Classifica cassieri"
+
+#: dist/pos/index.js:22
+msgid "Manage Store"
+msgstr "Gestisci negozio"
+
+#: dist/pos/index.js:22
+msgid "Switch Register"
+msgstr "Cambia cassa"
+
+#: dist/pos/index.js:22
+msgid "Login times: "
+msgstr "Accesso: "
+
+#: dist/pos/index.js:22
+msgid "Total orders"
+msgstr "Ordini totali"
+
+#: dist/pos/index.js:22
+msgid "Total sales"
+msgstr "Vendite totali"
+
+#: dist/pos/index.js:22
+msgid "Download CSV"
+msgstr "Scarica il CSV"
+
+#: dist/pos/index.js:22
+msgid "Register Screen"
+msgstr "Registratore di cassa"
+
+#: dist/pos/index.js:22
+msgid "Order History"
+msgstr "Cronologia ordini"
+
+#: dist/pos/index.js:22
+msgid "Today's profit"
+msgstr "Guadagni della giornata"
+
+#: dist/pos/index.js:22
+msgid "Manage Cash"
+msgstr "Gestisci contante"
+
+#: dist/pos/index.js:22
+msgid "Close register"
+msgstr "Chiusura cassa"
+
+#: dist/pos/index.js:22
+msgid "Store:"
+msgstr "Negozio:"
+
+#: dist/pos/index.js:22
+msgid "Logout"
+msgstr "Esci"
+
+#: dist/pos/index.js:22
+msgid "Empty Cart"
+msgstr "Svuota il carrello"
+
+#: dist/pos/index.js:22
+msgid "Add note"
+msgstr "Aggiungi nota"
+
+#: dist/pos/index.js:22
+msgid "Edit note"
+msgstr "Modifica nota"
+
+#: dist/pos/index.js:22
+msgid "Add fee or discount"
+msgstr "Aggiungi costo extra o sconto"
+
+#: dist/pos/index.js:22
+msgid "Apply coupon"
+msgstr "Applica codice promozionale"
+
+#: dist/pos/index.js:22
+msgid "Shipping"
+msgstr "Spedizione"
+
+#: dist/pos/index.js:22
+msgid "Suspend & save cart"
+msgstr "Sospendi & salva il carrello"
+
+#: dist/pos/index.js:22
+msgid "Pay"
+msgstr "Paga"
+
+#: dist/pos/index.js:22
+msgid "Add a note to this order"
+msgstr "Aggiungi una nota all'ordine"
+
+#: dist/pos/index.js:22
+msgid "Add another payment option"
+msgstr "Aggiungi un'altra opzione di pagamento"
+
+#: dist/pos/index.js:22
+msgid "Amount paying"
+msgstr "Importo da pagare"
+
+#: dist/pos/index.js:22
+msgid "Amount to pay"
+msgstr "Importo da pagare"
+
+#: dist/pos/index.js:22
+msgid "Amount type"
+msgstr "Tipo di importo"
+
+#: dist/pos/index.js:22
+msgid "Back"
+msgstr "Indietro"
+
+#: dist/pos/index.js:22
+msgid "Balance"
+msgstr "Saldo"
+
+#: dist/pos/index.js:22
+msgid "By"
+msgstr "Da"
+
+#: dist/pos/index.js:22
+msgid "Cart "
+msgstr "Carrello "
+
+#: dist/pos/index.js:22
+msgid "Change price per unit"
+msgstr "Modifica il prezzo unitario"
+
+#: dist/pos/index.js:22
+msgid "Customer "
+msgstr "Cliente "
+
+#: dist/pos/index.js:22
+msgid "Guest Customer "
+msgstr "Cliente non registrato "
+
+#: dist/pos/index.js:22
+msgid "Discount"
+msgstr "Sconto"
+
+#: dist/pos/index.js:22
+msgid "Enter coupon code"
+msgstr "Inserisci un codice promozionale"
+
+#: dist/pos/index.js:22
+msgid "Fee"
+msgstr "Costo"
+
+#: dist/pos/index.js:22
+msgid "Fixed"
+msgstr "Fisso"
+
+#: dist/pos/index.js:22
+msgid "Popular fees"
+msgstr "Più usati"
+
+#: dist/pos/index.js:22
+msgid "Popular tendered"
+msgstr "Suggeriti"
+
+#: dist/pos/index.js:22
+msgid "load"
+msgstr "carica"
+
+#: dist/pos/index.js:22
+msgid "Payment option"
+msgstr "Opzione di pagamento"
+
+#: dist/pos/index.js:22
+msgid "Pending payment"
+msgstr "In attesa di pagamento"
+
+#: dist/pos/index.js:22
+msgid "product"
+msgstr "prodotto"
+
+#: dist/pos/index.js:22
+msgid "products"
+msgstr "prodotti"
+
+#: dist/pos/index.js:22
+msgid "Percentage"
+msgstr "Percentuale"
+
+#: dist/pos/index.js:22
+msgid "Reason (optional)"
+msgstr "Causale (opzionale)"
+
+#: dist/pos/index.js:22
+msgid "Add a reason or note (optional)"
+msgstr "Aggiungi una nota (opzionale)"
+
+#: dist/pos/index.js:22
+msgid "Save note"
+msgstr "Salva nota"
+
+#: dist/pos/index.js:22
+msgid "Shipping Method"
+msgstr "Metodo di spedizione"
+
+#: dist/pos/index.js:22
+msgid "Update Total"
+msgstr "Aggiorna il totale"
+
+#: dist/pos/index.js:22
+msgid "Save Shipping"
+msgstr "Salva info di spedizione"
+
+#: dist/pos/index.js:22
+msgid "Total due"
+msgstr "Totale dovuto"
+
+#: dist/pos/index.js:22
+msgid "Total paying"
+msgstr "Totale pagato"
+
+#: dist/pos/index.js:22
+msgid "Coupon usage limit has been reached."
+msgstr "È stato raggiunto il limite di utilizzo per questo codice."
+
+#: dist/pos/index.js:22
+msgid "This coupon has expired."
+msgstr "Questo codice è scaduto."
+
+#: dist/pos/index.js:22
+msgid "The minimum spend for this coupon is %s."
+msgstr "Spesa minima per utilizzare questo codice: %s."
+
+#: dist/pos/index.js:22
+msgid "The maximum spend for this coupon is %s."
+msgstr "Spesa massima per utilizzare questo codice: %s."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not applicable to your cart contents."
+msgstr ""
+"Questo codice promozionale non è applicabile al contenuto del tuo carrello."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not applicable to selected products."
+msgstr "Questo codice promozionale non è applicabile al prodotto selezionato."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not valid for sale items."
+msgstr "Questo codice promozionale non è applicabile ai prodotti in saldo."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not applicable to the products: %s."
+msgstr "Questo codice promozionale non è applicabile ai seguenti prodotti: %s."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not applicable to the categories: %s."
+msgstr ""
+"Questo codice promozionale non è applicabile alle seguenti categorie: %s."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not usable by the current customer."
+msgstr ""
+"Questo codice promozionale non può essere utilizzato da questo cliente."
+
+#: dist/pos/index.js:22
+msgid "Guest"
+msgstr "Utente non registrato"
+
+#: dist/pos/index.js:22
+msgid "Subtotal"
+msgstr "Subtotale"
+
+#: dist/pos/index.js:22
+msgid "Tax"
+msgstr "Tasse"
+
+#: dist/pos/index.js:22
+msgid "Subtotal (incl. tax)"
+msgstr "Subtotale (IVA incl.)"
+
+#: dist/pos/index.js:22
+msgid "COUPON"
+msgstr "CODICE PROMOZIONALE"
+
+#: dist/pos/index.js:22
+msgid "You cannot add %s \"%s\" to your cart"
+msgstr "Non puoi aggiungere %s \"%s\" al carrello"
+
+#: dist/pos/index.js:22
+msgid "You cannot add another \"%s\" to your cart"
+msgstr "Non puoi aggiungere un altro \"%s\" al carrello"
+
+#: dist/pos/index.js:22
+msgid "Coupon already applied!"
+msgstr "Codice promozionale già applicato!"
+
+#: dist/pos/index.js:22
+msgid "The coupon was not applied!"
+msgstr "Non è stato possibile applicare il codice."
+
+#: dist/pos/index.js:22
+msgid "Add the first product to the cart"
+msgstr "Aggiungi un prodotto al carrello"
+
+#: dist/pos/index.js:22
+msgid "Are you sure?"
+msgstr "Sei sicuro?"
+
+#: dist/pos/index.js:22
+msgid "Cancel"
+msgstr "Annulla"
+
+#: dist/pos/index.js:22
+msgid "Coupon not found"
+msgstr "Codice promozionale non trovato"
+
+#: dist/pos/index.js:22
+msgid "Discount type:"
+msgstr "Tipo di sconto:"
+
+#: dist/pos/index.js:22
+msgid "Coupon amount:"
+msgstr "Importo codice promozionale:"
+
+#: dist/pos/index.js:22
+msgid "Expiry date:"
+msgstr "Scadenza:"
+
+#: dist/pos/index.js:22
+msgid "clear"
+msgstr "cancella"
+
+#: dist/pos/index.js:22
+msgid "Order #"
+msgstr "Ordine #"
+
+#: dist/pos/index.js:22
+msgid "items"
+msgstr "articoli"
+
+#: dist/pos/index.js:22
+msgid "item"
+msgstr "articolo"
+
+#: dist/pos/index.js:22
+msgid "orders"
+msgstr "ordini"
+
+#: dist/pos/index.js:22
+msgid "order"
+msgstr "ordine"
+
+#: dist/pos/index.js:22
+msgid "All registers"
+msgstr "Tutte le casse"
+
+#: dist/pos/index.js:22
+msgid "Other"
+msgstr "Altro"
+
+#: dist/pos/index.js:22
+#, fuzzy
+msgid "Total Tax"
+msgstr "Totale"
+
+#: dist/pos/index.js:22
+msgid "Note: "
+msgstr "Nota: "
+
+#: dist/pos/index.js:22
+msgid "Youtube:"
+msgstr "Youtube:"
+
+#: dist/pos/index.js:22
+msgid "Note:"
+msgstr "Nota:"
+
+#: dist/pos/index.js:22
+msgid "Order #%s"
+msgstr "Ordine #%s"
+
+#: dist/pos/index.js:22
+msgid "Paid via %s on %s"
+msgstr "Pagato con %s il %s"
+
+#: dist/pos/index.js:22
+msgid "Print Receipt"
+msgstr "Stampa scontrino"
+
+#: dist/pos/index.js:22
+msgid "< Back to register screen"
+msgstr "< Torna alla cassa"
+
+#: dist/pos/index.js:22
+msgid "Or create a new customer profile >"
+msgstr "Oppure crea un nuovo profilo cliente >"
+
+#: dist/pos/index.js:22
+msgid "Create a new customer profile"
+msgstr "Crea un nuovo profilo cliente"
+
+#: dist/pos/index.js:22
+msgid "Company"
+msgstr "Azienda"
+
+#: dist/pos/index.js:22
+msgid "Country"
+msgstr "Paese"
+
+#: dist/pos/index.js:22
+msgid "Current customer"
+msgstr "Cliente attuale"
+
+#: dist/pos/index.js:22
+msgid "Email"
+msgstr "Email"
+
+#: dist/pos/index.js:22
+msgid "Invalid email address"
+msgstr "Indirizzo email non valido"
+
+#: dist/pos/index.js:22
+msgid "First name"
+msgstr "Nome"
+
+#: dist/pos/index.js:22
+msgid "Last name"
+msgstr "Cognome"
+
+#: dist/pos/index.js:22
+msgid "Please enter 3 or more characters"
+msgstr "Inserisci almeno 3 caratteri"
+
+#: dist/pos/index.js:22
+msgid "Not found the right customer?"
+msgstr "Non hai trovato il cliente che cercavi?"
+
+#: dist/pos/index.js:22
+msgid "User not found."
+msgstr "Utente non trovato."
+
+#: dist/pos/index.js:22
+msgid "Post Code"
+msgstr "Codice postale"
+
+#: dist/pos/index.js:22
+msgid "An account is already registered with this email address."
+msgstr "Esiste già un account collegato a questo indirizzo email."
+
+#: dist/pos/index.js:22
+msgid "This field is required"
+msgstr "Questo campo è obbligatorio"
+
+#: dist/pos/index.js:22
+msgid "Save Customer"
+msgstr "Salva cliente"
+
+#: dist/pos/index.js:22
+msgid "Save Shipping Address"
+msgstr "Salva indirizzo di spedizione"
+
+#: dist/pos/index.js:22
+msgid "State"
+msgstr "Provincia"
+
+#: dist/pos/index.js:22
+msgid "Use this customer profile"
+msgstr "Utilizza questo profilo cliente"
+
+#: dist/pos/index.js:22
+msgid "Update customer profile"
+msgstr "Aggiorna il profilo del cliente"
+
+#: dist/pos/index.js:22
+msgid "VAT / CIF / ID"
+msgstr "IVA / C.F. / ID"
+
+#: dist/pos/index.js:22
+msgid "Notice: some information is missing!"
+msgstr "Attenzione: mancano delle informazioni!"
+
+#: dist/pos/index.js:22
+msgid "Billing %s is a required field."
+msgstr "Il campo %s nelle informazioni di fatturazione è obbligatorio."
+
+#: dist/pos/index.js:22
+msgid "Billing %s are required fields."
+msgstr "I campi %s nelle informazioni di fatturazione sono obbligatori."
+
+#: dist/pos/index.js:22
+msgid "Shipping %s is a required field."
+msgstr "Il campo %s nelle informazioni di spedizione è obbligatorio."
+
+#: dist/pos/index.js:22
+msgid "Shipping %s are required fields."
+msgstr "I campi %s nelle informazioni di spedizione sono obbligatori."
+
+#: dist/pos/index.js:22
+msgid "Cash in hand"
+msgstr "Fondocassa"
+
+#: dist/pos/index.js:22
+msgid "Reason"
+msgstr "Causale"
+
+#: dist/pos/index.js:22
+msgid "Enter amount"
+msgstr "Inserisci importo"
+
+#: dist/pos/index.js:22
+msgid "Save Cash"
+msgstr "Salva contante"
+
+#: dist/pos/index.js:22
+msgid "Cash Total"
+msgstr "Totale contante"
+
+#: dist/pos/index.js:22
+msgid "Opening times"
+msgstr "Orario di apertura"
+
+#: dist/pos/index.js:22
+msgid "Closing time"
+msgstr "Orario di chiusura"
+
+#: dist/pos/index.js:22
+msgid "Add"
+msgstr "Aggiungi"
+
+#: dist/pos/index.js:22
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: dist/pos/index.js:22
+msgid "Add or remove cash"
+msgstr "Aggiungi o rimuovi contanti"
+
+#: dist/pos/index.js:22
+msgid "Add a note (optional)"
+msgstr "Aggiungi una nota (opzionale)"
+
+#: dist/pos/index.js:22
+msgid "Download Report"
+msgstr "Scarica il report"
+
+#: dist/pos/index.js:22
+msgid "Close Register"
+msgstr "Chiudi la cassa"
+
+#: dist/pos/index.js:22
+#, fuzzy
+msgid "Entry"
+msgstr "Paese"
+
+#: dist/pos/index.js:22
+msgid "Product name: "
+msgstr "Nome prodotto: "
+
+#: dist/pos/index.js:22
+msgid "Product category:"
+msgstr "Categoria prodotto:"
+
+#: dist/pos/index.js:22
+msgid "SKU"
+msgstr "SKU"
+
+#: dist/pos/index.js:22
+msgid "Tax Status:"
+msgstr "Stato delle imposte:"
+
+#: dist/pos/index.js:22
+msgid "Tax Class:"
+msgstr "Aliquota di imposta:"
+
+#: dist/pos/index.js:22
+msgid "Regular price:"
+msgstr "Prezzo di listino:"
+
+#: dist/pos/index.js:22
+msgid "Stock:"
+msgstr "Magazzino:"
+
+#: dist/pos/index.js:22
+msgid "Quantity in stock:"
+msgstr "Disponibilità in magazzino:"
+
+#: dist/pos/index.js:22
+msgid "Sync with WooCommerce:"
+msgstr "Sincronizza con WooCommerce:"
+
+#: dist/pos/index.js:22
+msgid "Disabled"
+msgstr "Disabilitato"
+
+#: dist/pos/index.js:22
+msgid "Create product"
+msgstr "Crea prodotto"
+
+#: dist/pos/index.js:22
+msgid "Taxable"
+msgstr "Imponibile"
+
+#: dist/pos/index.js:22
+msgid "Shipping only"
+msgstr "Spedizione soltanto"
+
+#: dist/pos/index.js:22
+msgid "None"
+msgstr "Nessuno"
+
+#: dist/pos/index.js:22
+msgid "No results found."
+msgstr "Nessun risultato trovato."
+
+#: dist/pos/index.js:22
+msgid "add to cart"
+msgstr "aggiungi al carrello"
+
+#: dist/pos/index.js:22
+msgid "Inclusive"
+msgstr "Incluse"
+
+#: dist/pos/index.js:22
+msgid "Exclusive"
+msgstr "Escluse"
+
+#: dist/pos/index.js:22
+msgid "No Category found."
+msgstr "Nessuna categoria trovata."
+
+#: dist/pos/index.js:22
+msgid "Invalid or duplicated SKU."
+msgstr "SKU non valido o duplicato."
+
+#: dist/pos/index.js:22
+msgid "Standard"
+msgstr "Standard"
+
+#: dist/pos/index.js:22
+msgid "Search a category"
+msgstr "Cerca una categoria"
+
+#: dist/pos/index.js:22
+msgid ""
+"Please enter a number. If decimal, use the decimal separator (%s). Never use "
+"thousand separators."
+msgstr ""
+"Inserisci un numero. Se decimale, utilizza %s come separatore dei decimali. "
+"Non utilizzare nessun separatore delle migliaia."
+
+#: dist/pos/index.js:22
+msgid ""
+"Please enter a positive number. If decimal, use the decimal separator (%s). "
+"Never use thousand separators."
+msgstr ""
+"Inserisci un numero positivo. Se decimale, utilizza %s come separatore dei "
+"decimali. Non utilizzare nessun separatore delle migliaia."
+
+#: dist/pos/index.js:22
+msgid "On sale"
+msgstr "In saldo"
+
+#: dist/pos/index.js:22
+msgid "Featured"
+msgstr "In evidenza"
+
+#: dist/pos/index.js:22
+msgid "Add product"
+msgstr "Aggiungi prodotto"
+
+#: dist/pos/index.js:22
+msgid "Scan product"
+msgstr "Scansiona prodotto"
+
+#: dist/pos/index.js:22
+msgid "Add cash in hand"
+msgstr "Aggiungi contanti al fondocassa"
+
+#: dist/pos/index.js:22
+msgid "Choose variation"
+msgstr "Scegli variazione"
+
+#: dist/pos/index.js:22
+msgid "Variable product without variations"
+msgstr "Prodotto variabile senza variazioni"
+
+#: dist/pos/index.js:22
+msgid "Error"
+msgstr "Errore"
+
+#: dist/pos/index.js:22
+msgid "Error: %s"
+msgstr "Errore: %s"
+
+#: dist/pos/index.js:22
+msgid "OK"
+msgstr "OK"
+
+#: dist/pos/index.js:22
+msgid "Do you want to delete this cart and start from scratch?"
+msgstr "Vuoi eliminare questo carrello e aprirne uno nuovo?"
+
+#: dist/pos/index.js:22
+msgid "No, continue with this cart"
+msgstr "No, continua con questo carrello"
+
+#: dist/pos/index.js:22
+msgid "Suspend and save cart"
+msgstr "Sospendi il carrello"
+
+#: dist/pos/index.js:22
+msgid "Do you want to load the cart number #%s?"
+msgstr "Vuoi caricare il numero del carrello #%s?"
+
+#: dist/pos/index.js:22
+msgid ""
+"You have some items in your cart. Do you want to suspend your current cart "
+"and load the cart number#%s?"
+msgstr ""
+"Ci sono degli articoli nel carrello. Vuoi sospenderlo e caricare il carrello "
+"numero #%s?"
+
+#: dist/pos/index.js:22
+msgid "No, keep the cart"
+msgstr "No, continua con questo carrello"
+
+#: dist/pos/index.js:22
+msgid "Do you want to remove the cart number #%s?"
+msgstr "Vuoi eliminare il carrello numero #%s?"
+
+#: dist/pos/index.js:22
+msgid "This cart was switched with the cart number"
+msgstr "Questo carrello è stato scambiato con il carrello numero"
+
+#: dist/pos/index.js:22
+msgid "Apply coupon to order total"
+msgstr "Applica un codice promozionale all'ordine"
+
+#: dist/pos/index.js:22
+msgid "Order total"
+msgstr "Totale ordine"
+
+#: dist/pos/index.js:22
+msgid "Add fee or discount to order total"
+msgstr "Applica un costo extra o uno sconto all'ordine"
+
+#: dist/pos/index.js:22
+msgid "Set customer's profile"
+msgstr "Imposta profilo cliente"
+
+#: dist/pos/index.js:22
+msgid "Shipping Address"
+msgstr "Indirizzo di spedizione"
+
+#: dist/pos/index.js:22
+msgid "Add a new product"
+msgstr "Aggiungi un nuovo prodotto"
+
+#: dist/pos/index.js:22
+msgid "Split Payment"
+msgstr "Dividi pagamento"
+
+#: dist/pos/index.js:22
+msgid "Fix your cart and try again"
+msgstr "Correggi gli errori nel carrello e prova di nuovo"
+
+#: dist/pos/index.js:22
+msgid "Error: You are not able to do this."
+msgstr "Errore: non puoi eseguire questa operazione."
+
+#: dist/pos/index.js:22
+msgid "Profit of"
+msgstr "Guadagni del giorno"
+
+#: dist/pos/index.js:22
+msgctxt "Title of Close Register modal"
+msgid "Close Register"
+msgstr "Chiusura cassa"
+
+#: dist/pos/index.js:22
+msgid "Are you sure you want to log out?"
+msgstr "Sei sicuro di voler uscire?"
+
+#~ msgid "No data recorded for the selected time period."
+#~ msgstr "Nessun dato disponibile per il periodo selezionato."
+
+#~ msgid "No cashiers found for the selected Store."
+#~ msgstr "Nessun cassiere trovato per il negozio selezionato."
+
+#~ msgid "Standard Register"
+#~ msgstr "Cassa standard"

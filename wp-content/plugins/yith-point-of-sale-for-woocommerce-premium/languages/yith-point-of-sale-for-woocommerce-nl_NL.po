@@ -1,0 +1,2931 @@
+# Translation of YITH Point of Sale for WooCommerce in Dutch
+# This file is distributed under the same license as the YITH Point of Sale for WooCommerce package.
+msgid ""
+msgstr ""
+"Project-Id-Version: YITH Point of Sale for WooCommerce\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/yith-point-of-"
+"sale-for-woocommerce\n"
+"POT-Creation-Date: 2021-10-11T14:25:33+00:00\n"
+"PO-Revision-Date: 2020-10-24 12:55:33+0000\n"
+"Language: nl\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+
+#. Plugin Name of the plugin
+msgid "YITH Point of Sale for WooCommerce"
+msgstr "YITH Point of Sale for WooCommerce"
+
+#. Plugin URI of the plugin
+msgid "https://yithemes.com/themes/plugins/yith-point-of-sale-for-woocommerce"
+msgstr "https://yithemes.com/themes/plugins/yith-point-of-sale-for-woocommerce"
+
+#. Description of the plugin
+msgid ""
+"<code><strong>YITH Point of Sale for WooCommerce</strong></code> allows you "
+"to turn your WooCommerce installation into an easy to use and powerful cash "
+"register for each type of store or business. <a href=\"https://yithemes.com/"
+"\" target=\"_blank\">Get more plugins for your e-commerce shop on "
+"<strong>YITH</strong></a>"
+msgstr ""
+"<code><strong>YITH Point of Sale for WooCommerce</strong></code> laat je je "
+"WooCommerce installatie omkeren in een gebruiksvriendelijke en krachtige "
+"kassa voor alle type winkels of bedrijven. <a href=\"https://yithemes.com/\" "
+"target=\"_blank\">Verkrijg meer plugins voor je e-commerce winkel op "
+"<strong>YITH</strong></a>"
+
+#. Author of the plugin
+msgid "YITH"
+msgstr "YITH"
+
+#. Author URI of the plugin
+msgid "https://yithemes.com/"
+msgstr "https://yithemes.com/"
+
+#: includes/admin/class.yith-pos-receipt-post-type-admin.php:74
+msgid "Registers with this template"
+msgstr "Kassa's met dit template"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:102
+msgid "Filter by store"
+msgstr "Filteren op winkel"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:111
+msgid "Filter by status"
+msgstr "Filteren op status"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:136
+msgid "Register Name"
+msgstr "Kassanaam"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:137
+#: includes/class.yith-pos-post-types.php:107
+#: includes/class.yith-pos-post-types.php:121
+#: templates/yith-pos-store-register.php:77
+msgid "Store"
+msgstr "Winkel"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:138
+#: includes/admin/class.yith-pos-store-post-type-admin.php:300
+msgid "Info"
+msgstr "Informatie"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:139
+msgid "Status"
+msgstr "Status"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:140
+#: includes/admin/class.yith-pos-store-post-type-admin.php:357
+#: dist/pos/index.js:22
+msgid "Enabled"
+msgstr "Ingeschakeld"
+
+#. translators: %s is the receipt name.
+#: includes/admin/class.yith-pos-register-post-type-admin.php:170
+msgid "Receipt: %s"
+msgstr "Bon: %s"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:172
+msgid "No Receipt"
+msgstr "Geen bon"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:262
+#: includes/class.yith-pos-post-types.php:110
+#: includes/class.yith-pos-post-types.php:151
+#: includes/class.yith-pos-post-types.php:192
+#: plugin-options/metabox/receipt-options.php:23
+#: plugin-options/metabox/store-options.php:17
+msgid "Edit"
+msgstr "Bewerk"
+
+#: includes/admin/class.yith-pos-register-post-type-admin.php:274
+#: templates/yith-pos-store-register.php:87 dist/pos/index.js:22
+msgid "Open Register"
+msgstr "Open kassa"
+
+#. translators: %s is the payment gateway name.
+#: includes/admin/class.yith-pos-store-post-type-admin.php:110
+#: includes/class.yith-pos-admin.php:130 dist/pos/index.js:22
+msgid "Yes"
+msgstr "Ja"
+
+#. translators: %s is the payment gateway name.
+#: includes/admin/class.yith-pos-store-post-type-admin.php:111
+#: includes/class.yith-pos-admin.php:133
+msgid "No"
+msgstr "Nee"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:115
+msgid "Filter by enabled status"
+msgstr "Filteren op ingeschakelde status"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:300
+msgid "Step 1: Store Info"
+msgstr "Stap 1: Winkel informatie"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:301
+#: includes/admin/class.yith-pos-store-post-type-admin.php:309
+msgid "General store info"
+msgstr "Algemene winkelinformatie"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:301
+msgid ""
+"Enter the store details including the address, contact information and "
+"social accounts"
+msgstr ""
+"Winkeldetails invoeren inclusief adres, contactinformatie en sociale accounts"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:304
+#: includes/admin/class.yith-pos-store-post-type-admin.php:355
+#: plugin-options/metabox/store-options.php:149
+#: views/panel/store-wizard-nav.php:21 views/panel/store-wizard-summary.php:82
+msgid "Employees"
+msgstr "Werknemers"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:304
+msgid "Step 2: Employees"
+msgstr "Stap 2: Werknemers"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:305
+msgid ""
+"Set the employees (managers and cashiers) for this store<br/>You can choose "
+"your cashiers from the users already registered in this site or create new "
+"cashiers"
+msgstr ""
+"Werknemers (managers en kassamedewerkers) instellen voor deze winkel <br/>Je "
+"kunt een kassière kiezen van de al geregistreerde kassières op deze site, of "
+"een nieuwe aanmaken"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:305
+msgid ""
+"Assign a manager to manage all registers and add cashiers to each of them"
+msgstr ""
+"Manager aanwijzen om alle geregistreerde kassa's te beheren en "
+"kassamedewerkers toe te voegen"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:308
+#: includes/admin/class.yith-pos-store-post-type-admin.php:356
+#: includes/class.yith-pos-admin.php:158
+#: includes/class.yith-pos-post-types.php:147
+#: includes/class.yith-pos-post-types.php:162
+#: plugin-options/metabox/store-options.php:262
+#: views/panel/store-wizard-nav.php:26 views/panel/store-wizard-summary.php:103
+msgid "Registers"
+msgstr "Kassa's"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:308
+msgid "Step 3: Registers"
+msgstr "Stap 3: Kassa's"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:309
+msgid ""
+"Create at least one register for this store.<br/>You can set the visibility "
+"of each register to hide/show to some users"
+msgstr ""
+"Maak minstens een kassa aan voor deze winkel.<br/>Je kunt de zichtbaarheid "
+"van iedere kassa instellen om deze te tonen/verbergen voor bepaalde "
+"gebruikers"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:312
+msgid "Resume"
+msgstr "Hervatten"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:313
+msgid ""
+"Just one more step! Click the \"Save Store\" button to save your store. To "
+"make changes you can go back now or edit these from \"Stores\" tab."
+msgstr ""
+"Not maar een stap! Klik op de “Winkel opslaan” knop om de winkel op te "
+"slaan. Om wijzigingen aan te brengen, ga nu terug of bewerk ze vanaf het "
+"“Winkels” tabblad."
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:354
+#: plugin-options/metabox/store-options.php:48
+#: views/metabox/receipt-preview-template.php:18
+#: views/panel/store-wizard-summary.php:26
+msgid "Store Name"
+msgstr "Naam winkel"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:380
+#: views/panel/store-wizard-summary.php:84
+msgid "Managers"
+msgstr "Managers"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:385
+#: plugin-options/metabox/store-options.php:211
+#: views/panel/store-wizard-summary.php:93
+msgid "Cashiers"
+msgstr "Kassamedewerkers"
+
+#: includes/admin/class.yith-pos-store-post-type-admin.php:476
+msgid "Show Registers"
+msgstr "Toon Kassa's"
+
+#: includes/class.yith-pos-admin.php:102 includes/class.yith-pos-admin.php:104
+msgid "Enabled on YITH POS"
+msgstr "Inschakelen op YITH POS"
+
+#. translators: %s is the payment gateway name.
+#: includes/class.yith-pos-admin.php:130
+msgid "The \"%s\" payment method is currently enabled on YITH POS"
+msgstr "De \"%s\" betaalmethode is momenteel ingeschakeld op YITH POS"
+
+#. translators: %s is the payment gateway name.
+#: includes/class.yith-pos-admin.php:133
+msgid "The \"%s\" payment method is currently disabled on YITH POS"
+msgstr "De \"%s\" betaalmethode is momenteel uitgeschakeld op YITH POS"
+
+#: includes/class.yith-pos-admin.php:150
+msgid "Dashboard"
+msgstr "Dashboard"
+
+#: includes/class.yith-pos-admin.php:154
+#: includes/class.yith-pos-post-types.php:106
+msgid "Stores"
+msgstr "Winkels"
+
+#: includes/class.yith-pos-admin.php:162
+#: includes/class.yith-pos-post-types.php:188
+#: includes/class.yith-pos-post-types.php:203
+msgid "Receipts"
+msgstr "Bonnen"
+
+#: includes/class.yith-pos-admin.php:166
+msgid "Customization"
+msgstr "Aanpassen"
+
+#: includes/class.yith-pos-admin.php:395
+msgid "Visit POS"
+msgstr "Bezoek POS"
+
+#: includes/class.yith-pos-admin.php:410 includes/class.yith-pos-admin.php:426
+#: includes/class.yith-pos-frontend.php:151
+#: views/metabox/receipt-preview-template.php:21
+msgid "VAT"
+msgstr "BTW"
+
+#: includes/class.yith-pos-admin.php:445 includes/class.yith-pos.php:291
+msgid "YITH POS"
+msgstr "YITH POS"
+
+#: includes/class.yith-pos-admin.php:446
+msgid "Online"
+msgstr "Online"
+
+#: includes/class.yith-pos-admin.php:449
+msgid "Filter by YITH POS or online"
+msgstr "Filter op YITH POS of online"
+
+#: includes/class.yith-pos-admin.php:521
+msgid "POS Info"
+msgstr "POS Info"
+
+#: includes/class.yith-pos-admin.php:527
+msgid "Settings"
+msgstr "Instellingen"
+
+#. translators: %s is the ID of the store.
+#: includes/class.yith-pos-ajax.php:101
+msgid "Error: Store #%s not found"
+msgstr "Fout: Winkel #%s niet gevonden"
+
+#: includes/class.yith-pos-ajax.php:108 includes/class.yith-pos-ajax.php:141
+#: includes/class.yith-pos-ajax.php:169 includes/class.yith-pos-ajax.php:214
+#: includes/class.yith-pos-ajax.php:257 includes/class.yith-pos-ajax.php:295
+msgid "Error: Invalid request. Try again!"
+msgstr "Fout: Ongeldig verzoek. Probeer opnieuw!"
+
+#. translators: %s is the ID of the register.
+#: includes/class.yith-pos-ajax.php:134
+msgid "Error: Register #%s not found"
+msgstr "Fout: Kassa #%s niet gevonden"
+
+#: includes/class.yith-pos-ajax.php:272
+msgid "Register updated correctly!"
+msgstr "Kassa juist bijgewerkt!"
+
+#: includes/class.yith-pos-ajax.php:276
+msgid "Error: Something had gone wrong. Please try again!"
+msgstr "Fout: Er is iets misgegaan. Probeer het opnieuw a.u.b.!"
+
+#. translators: %s is the register ID.
+#. translators: %s is the register ID.
+#: includes/class.yith-pos-ajax.php:282 includes/class.yith-pos-ajax.php:307
+msgid "Error: Register #%s not found. Please try again!"
+msgstr "Fout: Kassa #%s niet gevonden. Probeer opnieuw a.u.b.!"
+
+#: includes/class.yith-pos-assets.php:102
+msgid "Here you can create, edit and manage all the Stores."
+msgstr "Hier kun je alle winkels maken, beheren en bewerken."
+
+#: includes/class.yith-pos-assets.php:103
+msgid "Here you can manage all the Registers of the Stores"
+msgstr "Hier kun je alle kassa's van de winkels beheren"
+
+#: includes/class.yith-pos-assets.php:104
+msgid "Here you can manage all the Receipt Templates"
+msgstr "Hier kun je alle bonnen templates beheren"
+
+#: includes/class.yith-pos-assets.php:105
+msgid "You need to create at least one Register before proceeding"
+msgstr "Je moet minstens een kassa aanmaken voordat je door kan gaan"
+
+#: includes/class.yith-pos-assets.php:106
+msgid ""
+"To restock items automatically for a POS order you need WooCommerce 4.1 or "
+"greater.<br />For previous versions, you can restock them manually after "
+"refunding the order."
+msgstr ""
+"Om de voorraad van de items voor een POS bestelling automatisch aan te "
+"vullen heb je WooCommerce 4.1 of hoger nodig. <br />Voor vorige versies, je "
+"kunt de voorraad handmatig aanvullen na het restitueren van een bestelling."
+
+#: includes/class.yith-pos-assets.php:107
+#: includes/class.yith-pos-products.php:50
+msgid "POS results only"
+msgstr "Alleen POS resultaten"
+
+#: includes/class.yith-pos-assets.php:127
+msgid "Are you sure you want to delete this Register?"
+msgstr "Weet je zeker dat je deze kassa wilt verwijderen?"
+
+#: includes/class.yith-pos-frontend.php:549
+msgid "Error: you cannot get access to this Register!"
+msgstr "Fout: je kunt geen toegang krijgen tot deze kassa!"
+
+#: includes/class.yith-pos-orders.php:80 dist/pos/index.js:22
+msgid "Note"
+msgstr "Notitie"
+
+#: includes/class.yith-pos-post-types.php:108
+#: includes/class.yith-pos-post-types.php:109
+msgid "Add New Store"
+msgstr "Nieuwe winkel toevoegen"
+
+#: includes/class.yith-pos-post-types.php:111
+msgid "Edit Store"
+msgstr "Winkel bewerken"
+
+#: includes/class.yith-pos-post-types.php:112
+msgid "New Store"
+msgstr "Nieuwe winkel"
+
+#: includes/class.yith-pos-post-types.php:113
+#: includes/class.yith-pos-post-types.php:114
+msgid "View Store"
+msgstr "Winkel bekijken"
+
+#: includes/class.yith-pos-post-types.php:115
+msgid "Search Store"
+msgstr "Winkel zoeken"
+
+#: includes/class.yith-pos-post-types.php:116
+#: includes/class.yith-pos-post-types.php:157
+#: includes/class.yith-pos-post-types.php:198
+msgid "Not found"
+msgstr "Niet gevonden"
+
+#: includes/class.yith-pos-post-types.php:117
+#: includes/class.yith-pos-post-types.php:158
+#: includes/class.yith-pos-post-types.php:199
+msgid "Not found in trash"
+msgstr "Niet gevonden in prullenbak"
+
+#: includes/class.yith-pos-post-types.php:123
+msgid "This is where Stores are stored."
+msgstr "Dit is waar winkels worden bewaart."
+
+#: includes/class.yith-pos-post-types.php:148
+#: templates/yith-pos-store-register.php:83
+#: views/metabox/receipt-preview-template.php:106
+msgid "Register"
+msgstr "Kassa"
+
+#: includes/class.yith-pos-post-types.php:149
+#: includes/class.yith-pos-post-types.php:150
+msgid "Add New Register"
+msgstr "Nieuwe kassa toevoegen"
+
+#: includes/class.yith-pos-post-types.php:152
+msgid "Edit Register"
+msgstr "Kassa bewerken"
+
+#: includes/class.yith-pos-post-types.php:153
+msgid "New Register"
+msgstr "Nieuwe kassa"
+
+#: includes/class.yith-pos-post-types.php:154
+#: includes/class.yith-pos-post-types.php:155
+msgid "View Register"
+msgstr "Kassa bekijken"
+
+#: includes/class.yith-pos-post-types.php:156
+msgid "Search Registers"
+msgstr "Kassa zoeken"
+
+#: includes/class.yith-pos-post-types.php:164
+msgid "This is where Registers are stored."
+msgstr "Dit is waar kassa's worden bewaart."
+
+#: includes/class.yith-pos-post-types.php:189
+#: plugin-options/metabox/register-options.php:107
+msgid "Receipt"
+msgstr "Bon"
+
+#: includes/class.yith-pos-post-types.php:190
+#: includes/class.yith-pos-post-types.php:191
+msgid "Add New Receipt"
+msgstr "Nieuwe bon toevoegen"
+
+#: includes/class.yith-pos-post-types.php:193
+msgid "Edit Receipt"
+msgstr "Bon bewerken"
+
+#: includes/class.yith-pos-post-types.php:194
+msgid "New Receipt"
+msgstr "Nieuwe bon"
+
+#: includes/class.yith-pos-post-types.php:195
+#: includes/class.yith-pos-post-types.php:196
+msgid "View Receipt"
+msgstr "Bon bekijken"
+
+#: includes/class.yith-pos-post-types.php:197
+msgid "Search Receipts"
+msgstr "Bon zoeken"
+
+#: includes/class.yith-pos-post-types.php:205
+msgid "This is where Receipts are stored."
+msgstr "Dit is waar bonnen worden bewaart."
+
+#. translators: %s is the name of the store.
+#. translators: %s is the name of the store.
+#: includes/class.yith-pos-post-types.php:334
+#: includes/class.yith-pos-post-types.php:336
+msgid "Store \"%s\" updated!"
+msgstr "Winkel \"%s\" bijgewerkt!"
+
+#. translators: %s is the name of the store.
+#: includes/class.yith-pos-post-types.php:338
+msgid "Congrats! You've just created your Store: %s."
+msgstr "Gefeliciteerd! Je hebt zojuist winkel: %s aangemaakt."
+
+#. translators: %s is the name of the store.
+#: includes/class.yith-pos-post-types.php:340
+msgid "Store \"%s\" saved!"
+msgstr "Winkel \"%s\" opgeslagen!"
+
+#. translators: %s is the name of the register.
+#. translators: %s is the name of the register.
+#: includes/class.yith-pos-post-types.php:344
+#: includes/class.yith-pos-post-types.php:346
+msgid "Register \"%s\" updated!"
+msgstr "Kassa \"%s\" bijgewerkt!"
+
+#. translators: %s is the name of the register.
+#: includes/class.yith-pos-post-types.php:348
+msgid "Congrats! You've just created your Register: %s."
+msgstr "Gefeliciteerd! Je hebt zojuist kassa: %s aangemaakt."
+
+#. translators: %s is the name of the register.
+#: includes/class.yith-pos-post-types.php:350
+msgid "Register \"%s\" saved!"
+msgstr "Kassa \"%s\" opgeslagen!"
+
+#. translators: %s is the name of the receipt.
+#. translators: %s is the name of the receipt.
+#: includes/class.yith-pos-post-types.php:354
+#: includes/class.yith-pos-post-types.php:356
+msgid "Receipt \"%s\" updated!"
+msgstr "Bon \"%s\" bijgewerkt!"
+
+#. translators: %s is the name of the receipt.
+#: includes/class.yith-pos-post-types.php:358
+msgid "Congrats! You've just created your receipt: %s."
+msgstr "Gefeliciteerd! Je hebt zojuist bon: %s aangemaakt."
+
+#. translators: %s is the name of the receipt.
+#: includes/class.yith-pos-post-types.php:360
+msgid "Receipt \"%s\" saved!"
+msgstr "Bon \"%s\" opgeslagen!"
+
+#: includes/class.yith-pos-post-types.php:389
+msgid "YITH POS roles and capabilities regenerated correctly!"
+msgstr "YITH POS rollen en capaciteiten juist aangemaakt!"
+
+#: includes/class.yith-pos-post-types.php:429
+msgctxt "User role"
+msgid "YITH POS Manager"
+msgstr "YITH POS Manager"
+
+#: includes/class.yith-pos-post-types.php:430
+msgctxt "User role"
+msgid "YITH POS Cashier"
+msgstr "YITH POS Kassamedewerker"
+
+#: includes/class.yith-pos-post-types.php:471
+#: includes/class.yith-pos-post-types.php:480
+msgid "Default Receipt"
+msgstr "Standaard bon"
+
+#: includes/class.yith-pos-post-types.php:484
+#: plugin-options/metabox/receipt-options.php:74
+msgid "VAT:"
+msgstr "BTW:"
+
+#: includes/class.yith-pos-post-types.php:491
+#: plugin-options/metabox/receipt-options.php:215
+msgid "Date:"
+msgstr "Date:"
+
+#: includes/class.yith-pos-post-types.php:493
+#: plugin-options/metabox/receipt-options.php:234
+msgid "Order:"
+msgstr "Bestelling:"
+
+#: includes/class.yith-pos-post-types.php:495
+#: plugin-options/metabox/receipt-options.php:253 dist/pos/index.js:22
+msgid "Customer:"
+msgstr "Klant:"
+
+#: includes/class.yith-pos-post-types.php:497
+#: plugin-options/metabox/receipt-options.php:272
+#: views/metabox/shop-order-pos-info-metabox.php:24 dist/pos/index.js:22
+msgid "Register:"
+msgstr "Kassa:"
+
+#: includes/class.yith-pos-post-types.php:499
+#: plugin-options/metabox/receipt-options.php:291
+#: views/metabox/shop-order-pos-info-metabox.php:29
+msgid "Cashier:"
+msgstr "Kassamedewerker:"
+
+#: includes/class.yith-pos-post-types.php:500
+#: plugin-options/metabox/receipt-options.php:307
+#: views/metabox/receipt-preview-template.php:115
+msgid "Thanks for your purchase"
+msgstr "Bedankt voor je aankoop"
+
+#: includes/class.yith-pos.php:86
+msgid "YITH POS template Page"
+msgstr "YITH POS template pagina"
+
+#: includes/class.yith-pos.php:279
+msgctxt "slug of the page"
+msgid "pos"
+msgstr "pos"
+
+#: includes/functions.yith-pos-caps.php:183
+msgid "You do not have permission to view products"
+msgstr "Je hebt geen toestemming om producten te bekijken"
+
+#: includes/functions.yith-pos-caps.php:184
+msgid "You do not have permission to create products"
+msgstr "Je hebt geen toestemming om producten te maken"
+
+#: includes/functions.yith-pos-caps.php:185
+msgid "You do not have permission to view product categories"
+msgstr "Je hebt geen toestemming om productcategorieën te bekijken"
+
+#: includes/functions.yith-pos-caps.php:186
+msgid "You do not have permission to create orders"
+msgstr "Je hebt geen toestemming om bestellingen te maken"
+
+#: includes/functions.yith-pos-caps.php:187
+msgid "You do not have permission to see orders"
+msgstr "Je hebt geen toestemming om bestellingen te bekijken"
+
+#: includes/functions.yith-pos-caps.php:188
+msgid "You do not have permission to manage POS"
+msgstr "Je hebt geen toestemming om POS te beheren"
+
+#: includes/functions.yith-pos-caps.php:189
+msgid "You do not have permission to view reports"
+msgstr "Je hebt geen toestemming om rapporten te bekijken"
+
+#: includes/functions.yith-pos-caps.php:190
+msgid "You do not have permission to view coupons"
+msgstr "Je hebt geen toestemming om kortingsbonnen te bekijken"
+
+#: includes/functions.yith-pos-caps.php:191
+msgid "You do not have permission to use POS"
+msgstr "Je hebt geen toestemming om POS te gebruiken"
+
+#: includes/functions.yith-pos-caps.php:192
+msgid "You do not have permission to view users"
+msgstr "Je hebt geen toestemming om gebruikers te bekijken"
+
+#: includes/functions.yith-pos-caps.php:193
+msgid "You do not have permission to edit users"
+msgstr "Je hebt geen toestemming om gebruikers te bewerken"
+
+#: includes/functions.yith-pos-caps.php:194
+msgid "You do not have permission to create users"
+msgstr "Je hebt geen toestemming om gebruikers aan te maken"
+
+#. translators: %s is the user ID.
+#: includes/functions.yith-pos-core.php:70
+msgid "User #%s"
+msgstr "Gebruiker #%s"
+
+#. translators: %s is the number of other items.
+#: includes/functions.yith-pos-core.php:145
+msgid "and other %s..."
+msgstr "en andere %s..."
+
+#. translators: %s is the number of other items.
+#: includes/functions.yith-pos-core.php:146
+msgid "hide"
+msgstr "verbergen"
+
+#: includes/functions.yith-pos-core.php:350
+msgid "No receipt"
+msgstr "Geen bon"
+
+#: includes/functions.yith-pos-core.php:378
+#: includes/functions.yith-pos-core.php:379
+msgid "Create new user"
+msgstr "Nieuwe gebruiker aanmaken"
+
+#: includes/functions.yith-pos-core.php:380
+msgid "Close new user creation"
+msgstr "Aanmaken nieuwe gebruiker sluiten"
+
+#: includes/functions.yith-pos-core.php:381
+msgid "Create user"
+msgstr "Gebruiker aanmaken"
+
+#: includes/functions.yith-pos-core.php:412
+msgid "This field is required."
+msgstr "Dit veld is verplicht."
+
+#: includes/functions.yith-pos-core.php:490
+msgid "Opened"
+msgstr "Geopend"
+
+#: includes/functions.yith-pos-core.php:491
+msgid "Closed"
+msgstr "Gesloten"
+
+#: includes/functions.yith-pos-core.php:840
+#: views/metabox/receipt-preview-template.php:86 dist/pos/index.js:22
+msgid "Change"
+msgstr "Wijzig"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:26
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:62
+#: views/metabox/receipt-preview-template.php:80
+msgid "Cash"
+msgstr "Contant"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:27
+msgid "Allow cash payments."
+msgstr "Contante betalingen toestaan."
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:52
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:50
+msgid "Enable/Disable"
+msgstr "Inschakelen/Uitschakelen"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:54
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:52
+msgid "This is a required payment"
+msgstr "Dit is een verplichte betaling"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:59
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:57
+msgid "Title"
+msgstr "Titel"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:61
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:59
+msgid "This is the title for the Cash Payment."
+msgstr "Dit is de titel voor de contante betaling."
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:66
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:64
+msgid "Description"
+msgstr "Beschrijving"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:68
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:69
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:66
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:67
+msgid "This payment method is for YITH Point of Sale for WooCommerce."
+msgstr "Deze betaalmethode is voor YITH Point of Sale for WooCommerce."
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:73
+msgid "Instructions"
+msgstr "Instructies"
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:75
+msgid "No instructions."
+msgstr "Geen instructies."
+
+#: includes/gateways/class.yith-pos-payment-gateway-cache.php:94
+msgid "Paid via Cash"
+msgstr "Contant betaald"
+
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:26
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:60
+msgid "Chip and Pin"
+msgstr "Chippen en pinnen"
+
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:27
+msgid "Allow Credit Card payments."
+msgstr "Credit Card betalingen toestaan."
+
+#: includes/gateways/class.yith-pos-payment-gateway-chip-pin.php:85
+msgid "Paid by Credit Card"
+msgstr "Betaald met Credit Card"
+
+#: includes/integrations/plugins-list.php:17
+msgid ""
+"Generate barcodes for your products, in the product details page and use "
+"them to scan products in POS."
+msgstr ""
+"Genereer barcodes voor je producten in de product details pagina en gebruik "
+"ze voor het scannen van producten in POS."
+
+#: includes/rest-api/Controllers/Version1/class.yith-pos-wc-rest-registers-controller.php:69
+msgid "Unique identifier for the resource."
+msgstr "Unique identifier voor de bron."
+
+#: includes/rest-api/Controllers/Version1/class.yith-pos-wc-rest-registers-controller.php:152
+msgid "Unique identifier for the object."
+msgstr "Unique identifier voor het object."
+
+#: includes/rest-api/Controllers/Version1/class.yith-pos-wc-rest-registers-controller.php:158
+msgid "Register Name."
+msgstr "Kassanaam."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:79
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:78
+msgid "Invalid response from data store."
+msgstr "Ongeldige reactie van data opslag."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:153
+msgid "Cashier ID."
+msgstr "ID Kassamedewerker."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:159
+msgid "Amount of items sold."
+msgstr "Aantal items verkocht."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:165
+msgid "Total Sales."
+msgstr "Totaal verkopen."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:171
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:168
+msgid "Number of orders."
+msgstr "Aantal bestellingen."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:177
+msgid "Number of products."
+msgstr "Aantal producten."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:187
+msgid "Cashier's name."
+msgstr "Naam kassamedewerker."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:205
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:194
+msgid "Current page of the collection."
+msgstr "Huidige pagina van de collectie."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:213
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:202
+msgid "Maximum number of items to be returned in result set."
+msgstr "Maximum aantal items die worden gerestitueerd in resultaten set."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:222
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:211
+msgid ""
+"Limit response to resources published after a given ISO8601 compliant date."
+msgstr ""
+"Beperkte reactie voor gepubliceerde bronnen na het geven van een ISO08601 "
+"conform datum."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:228
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:217
+msgid ""
+"Limit response to resources published before a given ISO8601 compliant date."
+msgstr ""
+"Beperkte reactie voor gepubliceerde bronnen voor het geven van een ISO08601 "
+"conform datum."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:234
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:223
+msgid "Order sort attribute ascending or descending."
+msgstr "Volgorde attribuut sortering oplopend of aflopend."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:241
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:230
+msgid "Sort collection by object attribute."
+msgstr "Sortering collectie op attribuut."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:260
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:240
+msgid "Time interval to use for buckets in the returned data."
+msgstr "Tijdinterval om te gebruiken voor buckets in de geretourneerde data."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:274
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:254
+msgid "Limit result set to items that have the specified order status."
+msgstr ""
+"Beperkt het resultaat tot items die de bepaalde bestelling status hebben."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:284
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:264
+msgid "Limit result set to items that don't have the specified order status."
+msgstr ""
+"Beperk resultaat tot items die de specifieke bestelling status niet hebben."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:294
+msgid "Limit result set to all items that have the specified cashier."
+msgstr ""
+"Beperk resultaat tot alle items die de specifieke kassamedewerker hebben."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:303
+msgid "Add additional info about each cashier to the report."
+msgstr "Aanvullende informatie over de kassamedewerker toevoegen aan rapport."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:311
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:283
+msgid "The Register."
+msgstr "De kassa."
+
+#: includes/rest-api/Reports/Cashiers/Controller.php:318
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:290
+msgid "The Store."
+msgstr "De winkel."
+
+#: includes/rest-api/Reports/Cashiers/DataStore.php:229
+#: includes/rest-api/Reports/PaymentMethods/DataStore.php:270
+msgid "Sorry, fetching data failed."
+msgstr "Sorry, data ophalen mislukt."
+
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:156
+msgid "Payment Method."
+msgstr "Betaalmethode."
+
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:162
+msgid "Payment Method Name."
+msgstr "Naam betaalmethode."
+
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:174
+msgid "Amount."
+msgstr "Bedrag."
+
+#: includes/rest-api/Reports/PaymentMethods/Controller.php:275
+msgid "Include payment methods with no sale."
+msgstr "Inclusief betaalmethode bij geen verkoop."
+
+#. translators: %s is the plugin name.
+#: init.php:39
+msgid ""
+"%s is enabled but not effective. It requires WooCommerce in order to work."
+msgstr ""
+"%s is ingeschakeld maar werkt niet. Het heeft WooCommerce nodig om te werken."
+
+#: plugin-options/metabox/receipt-options.php:15
+msgid "Update Receipt"
+msgstr "Bon bijwerken"
+
+#: plugin-options/metabox/receipt-options.php:17
+msgid "Move to trash"
+msgstr "Verplaatsen naar prullenbak"
+
+#: plugin-options/metabox/receipt-options.php:19
+msgid "Save Receipt"
+msgstr "Bon opslaan"
+
+#: plugin-options/metabox/receipt-options.php:30
+msgid "General"
+msgstr "Algemeen"
+
+#: plugin-options/metabox/receipt-options.php:34
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: plugin-options/metabox/receipt-options.php:38
+msgid "Receipt name"
+msgstr "Naam bon"
+
+#: plugin-options/metabox/receipt-options.php:40
+msgid "Enter a name to identify this receipt template"
+msgstr "Naam invoeren om deze bon template te identificeren"
+
+#: plugin-options/metabox/receipt-options.php:42
+msgid "The receipt name is required."
+msgstr "De bon naam is verplicht."
+
+#: plugin-options/metabox/receipt-options.php:46
+msgid "Receipt Header"
+msgstr "Bon header"
+
+#: plugin-options/metabox/receipt-options.php:50
+msgid "Logo"
+msgstr "Logo"
+
+#: plugin-options/metabox/receipt-options.php:53
+msgid ""
+"Upload your logo to customize the receipt. Supported image formats : gif, "
+"jpg, jpeg, png."
+msgstr ""
+"Upload je logo om de bon aan te passen. Ondersteunde formaten : gif, jpg, "
+"jpeg, png."
+
+#: plugin-options/metabox/receipt-options.php:57 dist/pos/index.js:22
+msgid "Name"
+msgstr "Naam"
+
+#: plugin-options/metabox/receipt-options.php:59
+msgid "Show or hide the Store name in this receipt"
+msgstr "Toon of verberg de winkelnaam in deze bon"
+
+#: plugin-options/metabox/receipt-options.php:64
+msgid "Show VAT"
+msgstr "Toon BTW"
+
+#: plugin-options/metabox/receipt-options.php:66
+msgid "Show or hide the VAT number in this receipt"
+msgstr "Toon of verberg het BTW nummer in deze bon"
+
+#: plugin-options/metabox/receipt-options.php:71
+msgid "VAT label"
+msgstr "BTW label"
+
+#: plugin-options/metabox/receipt-options.php:72
+msgid "Enter the label for VAT field. Default: VAT"
+msgstr "Label voor BTW veld invoeren. Standaard: BTW"
+
+#: plugin-options/metabox/receipt-options.php:83
+#: plugin-options/metabox/store-options.php:61
+#: views/panel/store-wizard-summary.php:34 dist/pos/index.js:22
+msgid "Address"
+msgstr "Adres"
+
+#: plugin-options/metabox/receipt-options.php:84
+msgid "Show or hide the Address of the store in this receipt"
+msgstr "Toon of verberg het adres van de winkel in deze bon"
+
+#: plugin-options/metabox/receipt-options.php:90
+#: plugin-options/metabox/store-options.php:86
+msgid "Contact Info"
+msgstr "Contactinformatie"
+
+#: plugin-options/metabox/receipt-options.php:91
+msgid "Show or hide the Contact Info of the store in this receipt"
+msgstr "Toon of verberg de contactinformatie van de winkel in deze bon"
+
+#: plugin-options/metabox/receipt-options.php:98
+#: plugin-options/metabox/store-options.php:90
+#: views/panel/store-wizard-summary.php:38 dist/pos/index.js:22
+msgid "Phone"
+msgstr "Telefoon"
+
+#: plugin-options/metabox/receipt-options.php:110
+#: plugin-options/metabox/store-options.php:102
+#: views/panel/store-wizard-summary.php:46
+msgid "E-mail"
+msgstr "E-mail"
+
+#: plugin-options/metabox/receipt-options.php:122
+#: plugin-options/metabox/store-options.php:96
+#: views/panel/store-wizard-summary.php:42
+msgid "Fax"
+msgstr "Fax"
+
+#: plugin-options/metabox/receipt-options.php:135
+#: plugin-options/metabox/store-options.php:108
+#: views/panel/store-wizard-summary.php:50
+msgid "Website"
+msgstr "Website"
+
+#: plugin-options/metabox/receipt-options.php:145
+msgid "Socials"
+msgstr "Socials"
+
+#: plugin-options/metabox/receipt-options.php:146
+msgid "Show or hide the socials of the store in this receipt"
+msgstr "Toon of verberg de socials van de winkel in deze bon"
+
+#: plugin-options/metabox/receipt-options.php:153
+#: plugin-options/metabox/store-options.php:118
+#: views/panel/store-wizard-summary.php:54
+msgid "Facebook"
+msgstr "Facebook"
+
+#: plugin-options/metabox/receipt-options.php:165
+#: plugin-options/metabox/store-options.php:124
+#: views/panel/store-wizard-summary.php:58
+msgid "Twitter"
+msgstr "Twitter"
+
+#: plugin-options/metabox/receipt-options.php:177
+#: plugin-options/metabox/store-options.php:130
+#: views/panel/store-wizard-summary.php:62
+msgid "Instagram"
+msgstr "Instagram"
+
+#: plugin-options/metabox/receipt-options.php:190
+#: plugin-options/metabox/store-options.php:136
+#: views/panel/store-wizard-summary.php:66
+msgid "Youtube"
+msgstr "Youtube"
+
+#: plugin-options/metabox/receipt-options.php:201
+msgid "Order Info"
+msgstr "Bestellinginformatie"
+
+#: plugin-options/metabox/receipt-options.php:205
+msgid "Show Order Date"
+msgstr "Toon bestellingdatum"
+
+#: plugin-options/metabox/receipt-options.php:206
+msgid "Show or hide the order date in this receipt"
+msgstr "Toon of verberg de bestellingdatum in deze bon"
+
+#: plugin-options/metabox/receipt-options.php:212
+msgid "Order Date label"
+msgstr "Bestellingdatum label"
+
+#: plugin-options/metabox/receipt-options.php:213
+msgid "Enter the label for Order Date field"
+msgstr "Label voor bestellingdatumveld invoeren"
+
+#: plugin-options/metabox/receipt-options.php:224
+msgid "Show Order Number"
+msgstr "Toon bestellingnummer"
+
+#: plugin-options/metabox/receipt-options.php:225
+msgid "Show or hide the order number in this receipt"
+msgstr "Toon of verberg het bestellingnummer in deze bon"
+
+#: plugin-options/metabox/receipt-options.php:231
+msgid "Order Number label"
+msgstr "Bestellingnummer label"
+
+#: plugin-options/metabox/receipt-options.php:232
+msgid "Enter the label for Order Number field"
+msgstr "Label voor bestellingnummerveld invoeren"
+
+#: plugin-options/metabox/receipt-options.php:243
+msgid "Show Customer Name"
+msgstr "Toon klantnaam"
+
+#: plugin-options/metabox/receipt-options.php:244
+msgid ""
+"Show or hide the customer name in this receipt (not available in guest "
+"register)"
+msgstr ""
+"Toon of verberg de klantnaam in deze bon (niet beschikbaar voor gast kassa)"
+
+#: plugin-options/metabox/receipt-options.php:250
+msgid "Customer label"
+msgstr "Klantlabel"
+
+#: plugin-options/metabox/receipt-options.php:251
+msgid "Enter the label for Customer field"
+msgstr "Label voor klantveld invoeren"
+
+#: plugin-options/metabox/receipt-options.php:262
+msgid "Show Register Name"
+msgstr "Toon kassanaam"
+
+#: plugin-options/metabox/receipt-options.php:263
+msgid ""
+"Show or hide the cashiers name in this receipt (not available in guest "
+"register)"
+msgstr ""
+"Toon of verberg de kassanaam in deze bon (niet beschikbaar voor gast kassa)"
+
+#: plugin-options/metabox/receipt-options.php:269
+msgid "Register label"
+msgstr "Kassalabel"
+
+#: plugin-options/metabox/receipt-options.php:270
+msgid "Enter the label for Register field"
+msgstr "Label voor kassaveld invoeren"
+
+#: plugin-options/metabox/receipt-options.php:281
+msgid "Show Cashier Name"
+msgstr "Toon naam kassamedewerker"
+
+#: plugin-options/metabox/receipt-options.php:282
+msgid ""
+"Show or hide the cashier name in this receipt (not available in guest "
+"register)"
+msgstr ""
+"Toon of verberg de naam van de kassamedewerker in deze bon (niet beschikbaar "
+"voor gast kassa)"
+
+#: plugin-options/metabox/receipt-options.php:288
+msgid "Cashier label"
+msgstr "Kassamedewerker label"
+
+#: plugin-options/metabox/receipt-options.php:289
+msgid "Enter the label for Cashier field"
+msgstr "Label voor kassamedewerker veld invoeren"
+
+#: plugin-options/metabox/receipt-options.php:301
+msgid "Receipt footer"
+msgstr "Footer bon"
+
+#: plugin-options/metabox/receipt-options.php:305
+msgid "Footer text"
+msgstr "Tekst footer"
+
+#: plugin-options/metabox/receipt-options.php:306
+msgid "Enter optional text for footer area in receipt template"
+msgstr "Optionele tekst invoeren voor footer gebied in bon template"
+
+#: plugin-options/metabox/receipt-options.php:320
+msgid "Receipt Preview"
+msgstr "Voorbeeld bon"
+
+#: plugin-options/metabox/receipt-options.php:327
+msgid "Print Preview"
+msgstr "Voorbeeld printen"
+
+#: plugin-options/metabox/receipt-options.php:341
+msgid "Print Example"
+msgstr "Voorbeeld printen"
+
+#: plugin-options/metabox/register-options.php:18
+msgid "Register name"
+msgstr "Kassanaam"
+
+#: plugin-options/metabox/register-options.php:19
+msgid "Enter a name to identify this Register."
+msgstr "Naam invoeren om deze kassa te identificeren."
+
+#: plugin-options/metabox/register-options.php:22
+msgid "The Register name is required."
+msgstr "De kassanaam is verplicht."
+
+#: plugin-options/metabox/register-options.php:29
+msgid "Scan barcodes"
+msgstr "Barcodes scannen"
+
+#: plugin-options/metabox/register-options.php:30
+msgid ""
+"If enabled, products can be added to the cart by scanning their barcodes."
+msgstr ""
+"Indien ingeschakeld, kunnen producten worden toegevoegd aan de winkelwagen "
+"door de barcodes te scannen."
+
+#: plugin-options/metabox/register-options.php:35
+#: plugin-options/settings-options.php:88
+msgid "Payment methods"
+msgstr "Betaalmethodes"
+
+#: plugin-options/metabox/register-options.php:42
+msgid "Select products to show"
+msgstr "Selecteer producten om weer te geven"
+
+#: plugin-options/metabox/register-options.php:45
+msgid "All products"
+msgstr "Alle producten"
+
+#: plugin-options/metabox/register-options.php:46
+msgid "Specific products / product categories"
+msgstr "Specifieke producten / product categorieën"
+
+#: plugin-options/metabox/register-options.php:71
+msgid "In Register dashboard show"
+msgstr "In kassa dashboard tonen"
+
+#: plugin-options/metabox/register-options.php:75
+msgid ""
+"Set Categories > Products if you want to show your product categories and "
+"the products of each category in your Register dashboard."
+msgstr ""
+"Categorieën instellen > Producten als je je product categorieën, en de "
+"producten van iedere categorie in je kassa dashboard wilt weergeven."
+
+#: plugin-options/metabox/register-options.php:76
+msgid ""
+"Set Only Products if you want to show just your products without categories"
+msgstr ""
+"Alleen producten instellen, als je alleen je producten wilt tonen, zonder "
+"categorieën"
+
+#: plugin-options/metabox/register-options.php:80
+msgid "Categories > Products"
+msgstr "Categorieën > Producten"
+
+#: plugin-options/metabox/register-options.php:81
+msgid "Only products"
+msgstr "Alleen producten"
+
+#: plugin-options/metabox/register-options.php:87
+msgid "Register visibility"
+msgstr "Zichtbaarheid kassa"
+
+#: plugin-options/metabox/register-options.php:89
+msgid "Set if you want to show this Register for specific Cashiers."
+msgstr "Bepaal of je deze kassa wil weergeven voor specifieke kassamedewerker."
+
+#: plugin-options/metabox/register-options.php:89
+msgid "You must set at least one Cashier in Store."
+msgstr "Je moet minstens een kassamedewerker instellen in de winkel."
+
+#: plugin-options/metabox/register-options.php:91 dist/pos/index.js:22
+msgid "All"
+msgstr "Alle"
+
+#: plugin-options/metabox/register-options.php:92
+msgid "Hide / Show to specific Cashiers"
+msgstr "Verbergen / tonen aan specifieke kassamedewerkers"
+
+#: plugin-options/metabox/register-options.php:95
+msgid "You must add at least one Cashier to activate this option"
+msgstr ""
+"Je moet minstens een kassamedewerker toevoegen om deze optie te activeren"
+
+#: plugin-options/metabox/register-options.php:114
+msgid "Enable Register closing report"
+msgstr "Kassa eindrapport inschakelen"
+
+#: plugin-options/metabox/register-options.php:115
+msgid ""
+"If enabled, the Cashier will see the final report before closing the "
+"Register."
+msgstr ""
+"Indien ingeschakeld, zal de kassamedewerker het eindrapport zien voor het "
+"sluiten van de kassa."
+
+#: plugin-options/metabox/register-options.php:120
+msgid "Enable Register final notes"
+msgstr "Laatste notities voor kassa's inschakelen"
+
+#: plugin-options/metabox/register-options.php:121
+msgid ""
+"If enabled, the Cashier will be able to add notes before closing the "
+"Register."
+msgstr ""
+"Indien ingeschakeld, zal de kassamedewerker in staat zijn om notities toe te "
+"voegen voor het sluiten van de kassa."
+
+#: plugin-options/metabox/store-options.php:14
+msgid "Save"
+msgstr "Opslaan"
+
+#: plugin-options/metabox/store-options.php:24
+msgid "Store Info"
+msgstr "Winkelinformatie"
+
+#: plugin-options/metabox/store-options.php:44
+msgid "General Info"
+msgstr "Algemene informatie"
+
+#: plugin-options/metabox/store-options.php:51
+msgid "Enter a name to identify this store."
+msgstr "Naam invoeren om deze winkel te identificeren."
+
+#: plugin-options/metabox/store-options.php:52
+msgid "The store name is required"
+msgstr "De winkel naam is verplicht"
+
+#: plugin-options/metabox/store-options.php:56
+#: views/panel/store-wizard-summary.php:30
+msgid "VAT Number"
+msgstr "BTW Nummer"
+
+#: plugin-options/metabox/store-options.php:58
+msgid "Enter a VAT number for this store."
+msgstr "BTW nummer invoeren voor deze winkel."
+
+#: plugin-options/metabox/store-options.php:65
+msgid "Full Address"
+msgstr "Compleet adres"
+
+#: plugin-options/metabox/store-options.php:66
+msgid "Enter a street address for this store location."
+msgstr "Straat adres invoeren voor deze winkellocatie."
+
+#: plugin-options/metabox/store-options.php:70 dist/pos/index.js:22
+msgid "City"
+msgstr "Plaats"
+
+#: plugin-options/metabox/store-options.php:71
+msgid "Enter the city in which this store is located."
+msgstr "Plaats invoeren waar de winkel is gevestigd."
+
+#: plugin-options/metabox/store-options.php:75
+msgid "Country / State"
+msgstr "Land/Staat"
+
+#: plugin-options/metabox/store-options.php:76
+msgid "Enter the Country / State / Province in which this store is located."
+msgstr "Land/Staat/Provincie waar de winkel is gevestigd."
+
+#: plugin-options/metabox/store-options.php:81
+msgid "Postcode / ZIP"
+msgstr "Postcode"
+
+#: plugin-options/metabox/store-options.php:82
+msgid "Enter the postal code of this address."
+msgstr "Postcode invoeren voor dit adres."
+
+#: plugin-options/metabox/store-options.php:91
+msgid "Enter the phone number of this store."
+msgstr "Telefoonnummer invoeren voor deze winkel."
+
+#: plugin-options/metabox/store-options.php:97
+msgid "Enter the fax number of this store."
+msgstr "Faxnummer invoeren voor deze winkel."
+
+#: plugin-options/metabox/store-options.php:103
+msgid "Enter the e-mail address of this store."
+msgstr "E-mailadres invoeren voor deze winkel."
+
+#: plugin-options/metabox/store-options.php:105
+msgid "Please provide a valid email address"
+msgstr "Een geldig e-mailadres invoeren a.u.b"
+
+#: plugin-options/metabox/store-options.php:109
+msgid "Enter the website url of this store."
+msgstr "Website url invoeren voor deze winkel."
+
+#: plugin-options/metabox/store-options.php:111
+msgid "Please provide a valid website url"
+msgstr "Een geldige website url invoeren a.u.b"
+
+#: plugin-options/metabox/store-options.php:114
+msgid "Social"
+msgstr "Social media"
+
+#: plugin-options/metabox/store-options.php:119
+msgid "Enter the Facebook url of this store."
+msgstr "Facebook url van deze winkel invoeren."
+
+#: plugin-options/metabox/store-options.php:125
+msgid "Enter the Twitter ID or username of this store."
+msgstr "Twitter ID of gebruikersnaam invoeren voor deze winkel."
+
+#: plugin-options/metabox/store-options.php:131
+msgid "Enter the Instagram ID or username of this store."
+msgstr "Instagram ID of gebruikersnaam invoeren voor deze winkel."
+
+#: plugin-options/metabox/store-options.php:137
+msgid "Enter the Youtube username for this store."
+msgstr "YouTube gebruikersnaam invoeren voor deze winkel."
+
+#: plugin-options/metabox/store-options.php:165
+msgid "Managers "
+msgstr "Managers "
+
+#: plugin-options/metabox/store-options.php:170
+msgid ""
+"A <strong>manager</strong> has full access to all registers and "
+"functionalities, assigned to this store.<br/>Please note, that <strong>you "
+"have to assign at least one manager</strong> before proceeding to the next "
+"step."
+msgstr ""
+"Een <strong>manager</strong> heeft volledige toegagng tot alle kassa's en de "
+"opties, toegewezen aan deze winkel. <br/>Let op, je <strong>dient ten minste "
+"een manager toe te wijzen </strong> voordat je door kan gaan naar de "
+"volgende stap."
+
+#: plugin-options/metabox/store-options.php:174
+msgid "Choose managers from your \"Users\" list"
+msgstr "Kies managers van je \"Gebruikers\" lijst"
+
+#: plugin-options/metabox/store-options.php:178
+#: plugin-options/metabox/store-options.php:223
+msgid "Remove All"
+msgstr "Allen verwijderen"
+
+#: plugin-options/metabox/store-options.php:178
+msgid "Click and type at least 1 letter to search and add a user as a manager."
+msgstr ""
+"Klik en typ minstens een letter om een gebruiker te zoeken en toe te voegen "
+"als manager."
+
+#: plugin-options/metabox/store-options.php:178
+msgid ""
+"<strong>Note:</strong> a Contributor and a Subscriber can not be added as "
+"Manager."
+msgstr ""
+"<strong>Note:</strong>een donateur en een abonnee kunnen niet worden "
+"toegevoegd als Manager."
+
+#: plugin-options/metabox/store-options.php:182
+msgid "Search Managers"
+msgstr "Managers zoeken"
+
+#: plugin-options/metabox/store-options.php:183
+msgid "You have to set at least one manager to proceed to next step"
+msgstr ""
+"Je moet minstens een manager instellen om door te gaan naar de volgende stap"
+
+#: plugin-options/metabox/store-options.php:194
+msgid "Do you need to setup a new manager profile?"
+msgstr "Moet je een nieuw manager profiel instellen?"
+
+#: plugin-options/metabox/store-options.php:198
+msgid "Create new manager"
+msgstr "Nieuwe manager aanmaken"
+
+#: plugin-options/metabox/store-options.php:199
+msgid "Close new manager creation"
+msgstr "Aanmaken nieuwe manager sluiten"
+
+#: plugin-options/metabox/store-options.php:200
+msgid "Create new store manager"
+msgstr "Nieuwe winkelmanager aanmaken"
+
+#: plugin-options/metabox/store-options.php:201
+msgid "Create manager"
+msgstr "Manager aanmaken"
+
+#: plugin-options/metabox/store-options.php:216
+#, fuzzy
+msgid ""
+"A <strong>Cashier</strong> might have limited access to the store Registers "
+"(e.g. being allowed to use only Register 1, but not Register 2). You can set "
+"these limits when adding a register."
+msgstr ""
+"<p class=\"section-description\">Een <strong>Kassamedewerker</strong> kan "
+"beperkte toegang hebben tot kassa's van winkels (vb. alleen toestemming om "
+"kassa 1 te gebruiken en niet kassa 2). Je kunt deze beperkingen instellen "
+"tijdens het toevoegen van een kassa.</p>"
+
+#: plugin-options/metabox/store-options.php:220
+msgid "Choose Cashiers from your \"Users\" list"
+msgstr "Kies kassamedewerkers van je \"Gebruikers\" lijst"
+
+#: plugin-options/metabox/store-options.php:223
+msgid ""
+"Click and type at least 3 letters to search and add a user as a manager."
+msgstr ""
+"Klik en typ minstens 3 letters om een gebruiker te zoeken en toe te voegen "
+"als manager."
+
+#: plugin-options/metabox/store-options.php:223
+msgid ""
+"<strong>Note:</strong> a Contributor and a Subscriber can not be added as "
+"cashiers."
+msgstr ""
+"<strong>Note:</strong>een donateur en een abonnee kunnen niet worden "
+"toegevoegd als kassamedewerkers."
+
+#: plugin-options/metabox/store-options.php:227
+msgid "Search Cashiers"
+msgstr "Kassamedewerkers zoeken"
+
+#: plugin-options/metabox/store-options.php:228
+msgid "You have to set at least one Cashier to proceed to the next step"
+msgstr ""
+"Je moet minstens een kassamedewerker instellen om door te gaan naar de "
+"volgende stap"
+
+#: plugin-options/metabox/store-options.php:238
+msgid "Do you need to set up a new Cashier profile?"
+msgstr "Moet je een nieuw kassamedewerker profiel instellen?"
+
+#: plugin-options/metabox/store-options.php:242
+msgid "Create new Cashier"
+msgstr "Nieuwe kassamedewerker aanmaken"
+
+#: plugin-options/metabox/store-options.php:243
+#: plugin-options/metabox/store-options.php:244
+msgid "Create new store Cashier"
+msgstr "Nieuwe kassamedewerker voor winkel aanmaken"
+
+#: plugin-options/metabox/store-options.php:245
+msgid "Create cashier"
+msgstr "Kassamedewerker aanmaken"
+
+#: plugin-options/settings-options.php:19
+msgctxt "Panel: page title"
+msgid "General Settings"
+msgstr "Algemene instellingen"
+
+#: plugin-options/settings-options.php:24
+msgid "Enable sound effect"
+msgstr "Geluideffect inschakelen"
+
+#: plugin-options/settings-options.php:25
+msgid "Enable or disable the sound effect when a product is added to cart"
+msgstr ""
+"Geluidseffect inschakelen of uitschakelen wanneer een product is toegevoegd "
+"aan de winkelwagen"
+
+#: plugin-options/settings-options.php:32
+msgid "Close popup windows when clicking on the background"
+msgstr "Pop-up scherm sluiten wanneer er op de achtergrond wordt geklikt"
+
+#: plugin-options/settings-options.php:33
+msgid ""
+"If enabled, all popup windows will be closed by clicking on the background"
+msgstr ""
+"Indien ingeschakeld, worden alle pop-up schermen gesloten door op de "
+"achtergrond te klikken"
+
+#: plugin-options/settings-options.php:43
+#: plugin-options/settings-options.php:47
+msgid "Login page"
+msgstr "Login pagina"
+
+#: plugin-options/settings-options.php:48
+msgid "Select the page of login"
+msgstr "Selecteer de login pagina"
+
+#: plugin-options/settings-options.php:55
+msgid "Login logo"
+msgstr "Login logo"
+
+#: plugin-options/settings-options.php:56
+msgid "Select logo for login form"
+msgstr "Select het logo voor het login formulier"
+
+#: plugin-options/settings-options.php:63
+msgid "Login background image"
+msgstr "Achtergrondafbeelding login"
+
+#: plugin-options/settings-options.php:64
+msgid "Select image for background login page"
+msgstr "Selecteer de afbeelding voor de achtergrond van de login pagina"
+
+#: plugin-options/settings-options.php:70
+msgid "Login background color"
+msgstr "Achtergrondkleur login"
+
+#: plugin-options/settings-options.php:71
+msgid "Select the background color for login page"
+msgstr "Selecteer de achtergrondkleur voor de login pagina"
+
+#: plugin-options/settings-options.php:81
+msgid "Payment method settings"
+msgstr "Betaalmethode instellingen"
+
+#: plugin-options/settings-options.php:89
+msgid ""
+"Select the global payment methods. These methods can be overridden for every "
+"single Register."
+msgstr ""
+"Selecteer de algemene betaalmethodes. Deze methodes kunnen worden "
+"overschreven voor elke kassa apart."
+
+#: plugin-options/settings-options.php:98
+msgid "Preset settings"
+msgstr "Vooraf ingestelde instellingen"
+
+#: plugin-options/settings-options.php:105
+msgid "Number Keyboard presets"
+msgstr "Nummer toetsenbord vooraf ingesteld"
+
+#: plugin-options/settings-options.php:106
+msgid "Set the percentage discount presets within the number keyboard"
+msgstr ""
+"Bepaal de vooraf ingestelde procentuele korting binnen het nummer toetsenbord"
+
+#: plugin-options/settings-options.php:117
+msgid "Fee and Discount presets"
+msgstr "Vooraf ingestelde kosten en korting"
+
+#: plugin-options/settings-options.php:118
+msgid "Set the percentage discount presets within the fee and discount editor"
+msgstr ""
+"Bepaal de vooraf ingestelde procentuele korting binnen de kosten en korting "
+"editor"
+
+#: plugin-options/settings-options.php:129
+msgid "Stock Management"
+msgstr "Voorraad managment"
+
+#: plugin-options/settings-options.php:133
+msgid "Show stock on register"
+msgstr "Toon voorraad op kassa"
+
+#: plugin-options/settings-options.php:134
+msgid "Choose if to show the stock count on the register"
+msgstr "Bepaal of je de voorraad teller wilt tonen op de kassa"
+
+#: plugin-options/settings-options.php:141
+msgid "Enable multistock"
+msgstr "Multi-voorraad inschakelen"
+
+#: plugin-options/settings-options.php:142
+msgid "Choose if enable or disable the multistock option"
+msgstr "Bepaal of je de multi voorraad optie wilt inschakelen of uitschakelen"
+
+#: plugin-options/settings-options.php:149
+msgid "Products of a store without stock are"
+msgstr "Producten van een winkel zonder voorraad zijn"
+
+#: plugin-options/settings-options.php:153
+msgid ""
+"Choose how to manage the purchase of products when no stock value has been "
+"set for a specific store."
+msgstr ""
+"Bepaal hoe je de aankoop van producten wilt beheren wanneer de ‘geen "
+"voorraad’ waarde is ingesteld voor een specifieke winkel."
+
+#: plugin-options/settings-options.php:154
+msgid ""
+"When you enable the multi-stock option, you'll have to set the product stock "
+"for every store. If one of the store stock is not specified, then, this "
+"settings will apply."
+msgstr ""
+"Wanneer je de optie multi-stock inschakelt, moet je de productvoorraad voor "
+"elke winkel instellen. Als een van de winkelvoorraden niet is opgegeven, "
+"zijn deze instellingen van toepassing."
+
+#: plugin-options/settings-options.php:161
+msgid "purchasable without stock management"
+msgstr "te koop zonder voorraad management"
+
+#: plugin-options/settings-options.php:162
+msgid "purchasable from the general stock"
+msgstr "te koop vanaf de algemene voorraad"
+
+#: plugin-options/settings-options.php:163
+msgid "non-purchasable"
+msgstr "niet te koop"
+
+#: plugin-options/settings-options.php:175
+msgid "Color Settings"
+msgstr "Kleurinstellingen"
+
+#: plugin-options/settings-options.php:179
+msgid "Primary color"
+msgstr "Hoofdkleur"
+
+#: plugin-options/settings-options.php:180
+msgid "Select the primary color for Registers"
+msgstr "Selecteer de hoofdkleur voor kassa's"
+
+#: plugin-options/settings-options.php:187
+msgid "Secondary color"
+msgstr "Tweede kleur"
+
+#: plugin-options/settings-options.php:188
+msgid "Select the secondary color for Registers"
+msgstr "Selecteer de tweede kleur voor kassa's"
+
+#: plugin-options/settings-options.php:195
+msgid "Products grid background"
+msgstr "Achtergrond producten raster"
+
+#: plugin-options/settings-options.php:196
+msgid "Select the background color for products grid"
+msgstr "Selecteer de achtergrondkleur van het productenraster"
+
+#: plugin-options/settings-options.php:203
+msgid "Product title background"
+msgstr "Achtergrond producttitel"
+
+#: plugin-options/settings-options.php:204
+msgid "Select the background color for product title"
+msgstr "Selecteer de achtergrondkleur voor de product titel"
+
+#: plugin-options/settings-options.php:211
+msgid "Saved cart buttons background"
+msgstr "Achtergrond opgeslagen winkelwagen knoppen"
+
+#: plugin-options/settings-options.php:212
+msgid "Select the background color for saved cart buttons"
+msgstr "Selecteer de achtergrondkleur voor opgeslagen winkelwagen knoppen"
+
+#: plugin-options/settings-options.php:219
+msgid "Pay button background"
+msgstr "Achtergrond betalen knop"
+
+#: plugin-options/settings-options.php:220
+msgid "Select the background color for pay button"
+msgstr "Selecteer de achtergrondkleur voor de betalen knop"
+
+#: plugin-options/settings-options.php:227
+msgid "Note buttons background"
+msgstr "Achtergrond notitie knoppen"
+
+#: plugin-options/settings-options.php:228
+msgid "Select the background color for note button"
+msgstr "Selecteer de achtergrondkleur voor de notitie knop"
+
+#: plugin-options/settings-options.php:235
+msgid "Header background"
+msgstr "Achtergrond header"
+
+#: plugin-options/settings-options.php:236
+msgid "Select the background color for header"
+msgstr "Selecteer de achtergrondkleur voor de header"
+
+#: templates/yith-pos-login.php:21
+msgid "Login"
+msgstr "Login"
+
+#: templates/yith-pos-page.php:45
+msgid ""
+"You are using an outdated browser; please update your browser or use a new "
+"generation web browser!"
+msgstr ""
+"Je gebruikt een verouderde browser; werk je browser bij a.u.b. of gebruik "
+"een nieuwe generatie web browser!"
+
+#: templates/yith-pos-store-register.php:18
+msgid "Sorry, you are not allowed to see this content"
+msgstr "Sorry, je bent niet geautoriseerd om deze inhoud te bekijken"
+
+#: templates/yith-pos-store-register.php:32
+msgid "Choose Store and Register"
+msgstr "Kies de winkel en kassa"
+
+#. translators: %s is the Register name.
+#: templates/yith-pos-store-register.php:46
+msgid "Take over %s"
+msgstr "Overnemen %s"
+
+#. translators: 1. Register name; 2. user name.
+#: templates/yith-pos-store-register.php:53
+#, fuzzy
+msgid "%1$s is currently in use by %2$s."
+msgstr "%s wordt momenteel gebruikt door %s."
+
+#. translators: %s is "Take over Register" text.
+#: templates/yith-pos-store-register.php:59
+msgid "Choose another Register or %s"
+msgstr "Kies een andere kassa of %s"
+
+#: templates/yith-pos-store-register.php:71
+msgid "Choose a Store"
+msgstr "Kies een winkel"
+
+#: templates/yith-pos-store-register.php:81
+msgid "Choose a Register"
+msgstr "Kies een kassa"
+
+#: views/fields/create-user.php:25
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: views/fields/create-user.php:28
+msgid "Enter a username to identify this user."
+msgstr "Gebruikersnaam invoeren om deze gebruiker te identificeren."
+
+#: views/fields/create-user.php:30
+msgid "The username is required and must be unique."
+msgstr "De gebruikersnaam is verplicht en moet uniek zijn."
+
+#: views/fields/create-user.php:37 dist/pos/index.js:22
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: views/fields/create-user.php:40
+msgid "Enter a password for this user."
+msgstr "Wachtwoord invoeren voor deze gebruiker."
+
+#: views/fields/create-user.php:42
+msgid "You need to set a password to the user."
+msgstr "Je moet een wachtwoord instellen voor de gebruiker."
+
+#: views/fields/create-user.php:49
+msgid "User Email"
+msgstr "E-mail gebruiker"
+
+#: views/fields/create-user.php:52
+msgid "Enter the e-mail address of this user."
+msgstr "E-mailadres invoeren voor deze gebruiker."
+
+#: views/fields/create-user.php:54
+msgid "Enter a valid email. Must be unique for each user."
+msgstr "Geldig e-mailadres invoeren. Moet uniek zijn voor iedere gebruiker."
+
+#: views/fields/create-user.php:61
+msgid "First Name"
+msgstr "Voornaam"
+
+#: views/fields/create-user.php:64
+msgid "Enter the first name of this user."
+msgstr "Voornaam invoeren voor deze gebruiker."
+
+#: views/fields/create-user.php:66
+msgid "You need to enter a name for this user."
+msgstr "Je moet een naam invoeren voor deze gebruiker."
+
+#: views/fields/create-user.php:73
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: views/fields/create-user.php:76
+msgid "Enter the last name of this user."
+msgstr "Achternaam invoeren voor deze gebruiker."
+
+#: views/fields/create-user.php:78
+msgid "You need to enter a last name for this user."
+msgstr "Je moet een achternaam invoeren voor deze gebruiker."
+
+#: views/fields/show-cashiers.php:48
+msgid "Show Register to"
+msgstr "Toon kassa aan"
+
+#: views/fields/show-cashiers.php:49
+msgid "Hide Register to"
+msgstr "Verberg kassa voor"
+
+#: views/fields/show-cashiers.php:66
+msgid "Select a Cashier"
+msgstr "Selecteer een kassamedewerker"
+
+#: views/fields/show-categories.php:34
+msgid "Search Category"
+msgstr "Categorie zoeken"
+
+#: views/fields/show-categories.php:43
+msgid "Category to"
+msgstr "Categorie naar"
+
+#: views/fields/show-categories.php:54 views/fields/show-products.php:30
+msgid "Include"
+msgstr "Inclusief"
+
+#: views/fields/show-categories.php:55 views/fields/show-products.php:31
+msgid "Exclude"
+msgstr "Exclusief"
+
+#: views/fields/show-products.php:19
+msgid "Product to"
+msgstr "Product naar"
+
+#: views/metabox/receipt-preview-template.php:28 dist/pos/index.js:22
+msgid "Phone:"
+msgstr "Telefoon:"
+
+#: views/metabox/receipt-preview-template.php:31 dist/pos/index.js:22
+msgid "Email:"
+msgstr "E-mail:"
+
+#: views/metabox/receipt-preview-template.php:34 dist/pos/index.js:22
+msgid "Fax:"
+msgstr "Fax:"
+
+#: views/metabox/receipt-preview-template.php:37 dist/pos/index.js:22
+msgid "Web:"
+msgstr "Website:"
+
+#: views/metabox/receipt-preview-template.php:42 dist/pos/index.js:22
+msgid "Facebook:"
+msgstr "Facebook:"
+
+#: views/metabox/receipt-preview-template.php:45 dist/pos/index.js:22
+msgid "Twitter:"
+msgstr "Twitter:"
+
+#: views/metabox/receipt-preview-template.php:48 dist/pos/index.js:22
+msgid "Instagram:"
+msgstr "Instagram:"
+
+#: views/metabox/receipt-preview-template.php:52
+msgid "YouTube:"
+msgstr "YouTube:"
+
+#: views/metabox/receipt-preview-template.php:59
+#: views/metabox/receipt-preview-template.php:61
+#: views/metabox/receipt-preview-template.php:63
+#: views/metabox/receipt-preview-template.php:65
+msgid "Product"
+msgstr "Product"
+
+#: views/metabox/receipt-preview-template.php:71 dist/pos/index.js:22
+msgid "Total"
+msgstr "Totaal"
+
+#: views/metabox/receipt-preview-template.php:95
+msgid "Date"
+msgstr "Datum"
+
+#: views/metabox/receipt-preview-template.php:98
+msgid "Order"
+msgstr "Bestelling"
+
+#: views/metabox/receipt-preview-template.php:102
+msgid "Customer"
+msgstr "Klant"
+
+#: views/metabox/receipt-preview-template.php:110 dist/dashboard/index.js:1
+#: dist/pos/index.js:22
+msgid "Cashier"
+msgstr "Kassamedewerker"
+
+#: views/metabox/shop-order-pos-info-metabox.php:19
+msgid "Order made in store:"
+msgstr "Bestelling geplaatst in winkel:"
+
+#: views/metabox/shop-order-pos-info-metabox.php:38
+msgid "Payment methods:"
+msgstr "Betaalmethoden:"
+
+#: views/metabox/store-registers-list-single.php:79
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: views/metabox/store-registers-list-single.php:80 dist/pos/index.js:22
+msgid "Update"
+msgstr "Bijwerken"
+
+#: views/metabox/store-registers-list-single.php:81
+msgid "Create"
+msgstr "Maken"
+
+#: views/metabox/store-registers-list.php:17
+msgid "Registers of this store"
+msgstr "Kassa's in deze winkel"
+
+#: views/metabox/store-registers-list.php:45
+msgid "Create new Register"
+msgstr "Nieuwe kassa aanmaken"
+
+#: views/metabox/store-registers-list.php:46
+msgid "Close new Register creation"
+msgstr "Nieuwe kassa aanmaken sluiten"
+
+#: views/metabox/store-registers-list.php:47
+msgid "Create new register"
+msgstr "Nieuwe kassa aanmaken"
+
+#. translators: %s is the plugin name.
+#: views/panel/create-your-first-store.php:20
+msgid "Thanks for choosing %s!"
+msgstr "Bedankt dat je gekozen hebt voor %s!"
+
+#. translators: %s is the plugin name.
+#: views/panel/create-your-first-store.php:21
+msgid ""
+"Now, the first step is to create a Store: after that, you will be able to "
+"use our powerful Register to sell your products."
+msgstr ""
+"De eerste stap is nu om een winkel aan te maken: daarna, kun je onze "
+"krachtige kassa's gebruiken om je producten te verkopen."
+
+#: views/panel/create-your-first-store.php:28
+msgid "Create your first store"
+msgstr "Je eerste winkel aanmaken"
+
+#. translators: 1. plugin name; 2. required plugin name.
+#: views/panel/dashboard.php:27
+#, fuzzy
+msgid "%1$s requires %2$s plugin to show reports!"
+msgstr "%s heeft %s plugin nodig om rapporten te tonen!"
+
+#: views/panel/dashboard.php:42
+msgid "Activate WooCommerce Admin"
+msgstr "Activeer WooCommerce Admin"
+
+#: views/panel/dashboard.php:44
+msgid "You are using an outdated version of WooCommerce Admin"
+msgstr "Je gebruikt een verouderde versie van WooCommerce Admin"
+
+#: views/panel/dashboard.php:49
+msgid "Update WooCommerce Admin"
+msgstr "WooCommerce Admin bijwerken"
+
+#: views/panel/dashboard.php:55
+msgid "Install WooCommerce Admin"
+msgstr "WooCommerce Admin instaleren"
+
+#: views/panel/store-wizard-nav.php:15
+msgid "Step 1"
+msgstr "Stap 1"
+
+#: views/panel/store-wizard-nav.php:16 views/panel/store-wizard-summary.php:20
+msgid "Store info"
+msgstr "Winkelinformatie"
+
+#: views/panel/store-wizard-nav.php:20
+msgid "Step 2"
+msgstr "Stap 2"
+
+#: views/panel/store-wizard-nav.php:25
+msgid "Step 3"
+msgstr "Stap 3"
+
+#: views/panel/store-wizard-nav.php:31
+msgid "Step 4"
+msgstr "Stap 4"
+
+#: views/panel/store-wizard-nav.php:32
+#: views/panel/store-wizard-pagination.php:21
+msgid "Save Store"
+msgstr "Winkel opslaan"
+
+#. translators: %s is the previous step number.
+#: views/panel/store-wizard-pagination.php:14
+msgid "Back to step %s"
+msgstr "Terug naar stap %s"
+
+#. translators: %s is the next step number.
+#: views/panel/store-wizard-pagination.php:16
+msgid "Proceed to step %s"
+msgstr "Door naar stap %s"
+
+#: views/panel/store-wizard-summary.php:117
+msgid "Guest Register"
+msgstr "Gast kassa"
+
+#: views/product/product-data-inventory.php:20
+msgid "POS Inventory"
+msgstr "POS voorraad"
+
+#: views/product/product-data-inventory.php:24
+msgid "To enable the multistock, it is necessary activate the option in "
+msgstr "Multi voorraad inschakelen, het is nodig om de optie te activeren in "
+
+#: views/product/product-data-inventory.php:24
+msgid "YITH > Point of Sale > Customization > Enable multistock"
+msgstr "YITH > Point of Sale > Aanpassen > Multi voorraad inschakelen"
+
+#: views/product/product-data-inventory.php:29
+msgid "Enable Multi Stock in POS"
+msgstr "Multi voorraad inschakelen in POS"
+
+#: views/product/product-data-inventory.php:46
+msgid "In store"
+msgstr "In winkel"
+
+#: views/product/product-data-inventory.php:61
+#: views/product/product-data-inventory.php:88
+msgid "Select Store"
+msgstr "Selecteer winkel"
+
+#: views/product/product-data-inventory.php:70
+#: views/product/product-data-inventory.php:95
+msgid "set a stock of: "
+msgstr "voorraad instellen van: "
+
+#: views/product/product-data-inventory.php:72
+#: views/product/product-data-inventory.php:97
+msgid "units"
+msgstr "units"
+
+#: views/product/product-data-inventory.php:79
+msgid "+ manage stock for another store"
+msgstr "+ beheer voorraad voor andere winkel"
+
+#: views/product/product-data-inventory.php:105
+msgid "No Store found!"
+msgstr "Geen winkel gevonden!"
+
+#: dist/dashboard/index.js:1
+msgid "Loading..."
+msgstr "Laden..."
+
+#: dist/dashboard/index.js:1
+msgid "All Registers"
+msgstr "Alle kassa's"
+
+#: dist/dashboard/index.js:1
+msgid "Filter by Store"
+msgstr "Filteren op winkel"
+
+#: dist/dashboard/index.js:1
+msgid "All Stores"
+msgstr "Alle winkels"
+
+#: dist/dashboard/index.js:1
+msgid "Filter by Register"
+msgstr "Filteren op kassa"
+
+#: dist/dashboard/index.js:1
+msgid "Orders"
+msgstr "Bestellingen"
+
+#: dist/dashboard/index.js:1 dist/pos/index.js:22
+msgid "Total Sales"
+msgstr "Totaal verkopen"
+
+#: dist/dashboard/index.js:1 dist/pos/index.js:22
+msgid "Net Sales"
+msgstr "Netto omzet"
+
+#: dist/dashboard/index.js:1
+msgid "Average Order Value"
+msgstr "Gemiddelde waarde bestelling"
+
+#: dist/dashboard/index.js:1
+msgid "Average Items Per Order"
+msgstr "Gemiddeld aantal items per bestelling"
+
+#: dist/dashboard/index.js:1
+msgid "Items"
+msgstr "Items"
+
+#: dist/dashboard/index.js:1
+msgid "Customers"
+msgstr "Klanten"
+
+#: dist/dashboard/index.js:1
+msgid "Coupons"
+msgstr "Kortingsbonnen"
+
+#: dist/dashboard/index.js:1
+msgid "No data for the selected date range"
+msgstr "Geen data voor het geselecteerde datumbereik"
+
+#: dist/dashboard/index.js:1 dist/pos/index.js:22
+msgid "Payment Method"
+msgstr "Betaalmethode"
+
+#: dist/dashboard/index.js:1 dist/pos/index.js:22
+msgid "Amount"
+msgstr "Bedrag"
+
+#: dist/dashboard/index.js:1
+msgid "Payment Methods"
+msgstr "Betaalmethoden"
+
+#: dist/dashboard/index.js:1
+msgid "Top Cashiers"
+msgstr "Top kassamedewerkers"
+
+#: dist/pos/index.js:22
+msgid "Manage Store"
+msgstr "Winkel beheren"
+
+#: dist/pos/index.js:22
+msgid "Switch Register"
+msgstr "Kassa wisselen"
+
+#: dist/pos/index.js:22
+msgid "Login times: "
+msgstr "Login tijden: "
+
+#: dist/pos/index.js:22
+msgid "Total orders"
+msgstr "Totaal bestellingen"
+
+#: dist/pos/index.js:22
+msgid "Total sales"
+msgstr "Totaal verkopen"
+
+#: dist/pos/index.js:22
+msgid "Download CSV"
+msgstr "Download CSV"
+
+#: dist/pos/index.js:22
+msgid "Register Screen"
+msgstr "Registreer scherm"
+
+#: dist/pos/index.js:22
+msgid "Order History"
+msgstr "Bestellinggeschiedenis"
+
+#: dist/pos/index.js:22
+msgid "Today's profit"
+msgstr "Opbrengst van vandaag"
+
+#: dist/pos/index.js:22
+msgid "Manage Cash"
+msgstr "Contanten beheren"
+
+#: dist/pos/index.js:22
+msgid "Close register"
+msgstr "Kassa sluiten"
+
+#: dist/pos/index.js:22
+msgid "Store:"
+msgstr "Winkel:"
+
+#: dist/pos/index.js:22
+msgid "Logout"
+msgstr "Logout"
+
+#: dist/pos/index.js:22
+msgid "Empty Cart"
+msgstr "Winkelwagen legen"
+
+#: dist/pos/index.js:22
+msgid "Add note"
+msgstr "Notitie toevoegen"
+
+#: dist/pos/index.js:22
+msgid "Edit note"
+msgstr "Notitie bewerken"
+
+#: dist/pos/index.js:22
+msgid "Add fee or discount"
+msgstr "Kosten of korting toevoegen"
+
+#: dist/pos/index.js:22
+msgid "Apply coupon"
+msgstr "Kortingsbon toepassen"
+
+#: dist/pos/index.js:22
+msgid "Shipping"
+msgstr "Verzending"
+
+#: dist/pos/index.js:22
+msgid "Suspend & save cart"
+msgstr "Onderbreken & winkelwagen opslaan"
+
+#: dist/pos/index.js:22
+msgid "Pay"
+msgstr "Betalen"
+
+#: dist/pos/index.js:22
+msgid "Add a note to this order"
+msgstr "Notitie toevoegen aan deze bestelling"
+
+#: dist/pos/index.js:22
+msgid "Add another payment option"
+msgstr "Andere betaalmethode toevoegen"
+
+#: dist/pos/index.js:22
+msgid "Amount paying"
+msgstr "Bedrag betalen"
+
+#: dist/pos/index.js:22
+msgid "Amount to pay"
+msgstr "Te betalen bedrag"
+
+#: dist/pos/index.js:22
+msgid "Amount type"
+msgstr "Type bedrag"
+
+#: dist/pos/index.js:22
+msgid "Back"
+msgstr "Terug"
+
+#: dist/pos/index.js:22
+msgid "Balance"
+msgstr "Saldo"
+
+#: dist/pos/index.js:22
+msgid "By"
+msgstr "Voor"
+
+#: dist/pos/index.js:22
+msgid "Cart "
+msgstr "Winkelwagen "
+
+#: dist/pos/index.js:22
+msgid "Change price per unit"
+msgstr "Prijs per unit wijzigen"
+
+#: dist/pos/index.js:22
+msgid "Customer "
+msgstr "Klant "
+
+#: dist/pos/index.js:22
+msgid "Guest Customer "
+msgstr "Gastklant "
+
+#: dist/pos/index.js:22
+msgid "Discount"
+msgstr "Korting"
+
+#: dist/pos/index.js:22
+msgid "Enter coupon code"
+msgstr "Kortingsbon invoeren"
+
+#: dist/pos/index.js:22
+msgid "Fee"
+msgstr "Kosten"
+
+#: dist/pos/index.js:22
+msgid "Fixed"
+msgstr "Vast"
+
+#: dist/pos/index.js:22
+msgid "Popular fees"
+msgstr "Populaire kosten"
+
+#: dist/pos/index.js:22
+msgid "Popular tendered"
+msgstr "Populair aangeboden"
+
+#: dist/pos/index.js:22
+msgid "load"
+msgstr "laden"
+
+#: dist/pos/index.js:22
+msgid "Payment option"
+msgstr "Betaaloptie"
+
+#: dist/pos/index.js:22
+msgid "Pending payment"
+msgstr "Betaling in behandeling"
+
+#: dist/pos/index.js:22
+msgid "product"
+msgstr "product"
+
+#: dist/pos/index.js:22
+msgid "products"
+msgstr "producten"
+
+#: dist/pos/index.js:22
+msgid "Percentage"
+msgstr "Percentage"
+
+#: dist/pos/index.js:22
+msgid "Reason (optional)"
+msgstr "Reden (optie)"
+
+#: dist/pos/index.js:22
+msgid "Add a reason or note (optional)"
+msgstr "Reden of notitie toevoegen (optie)"
+
+#: dist/pos/index.js:22
+msgid "Save note"
+msgstr "Notitie opslaan"
+
+#: dist/pos/index.js:22
+msgid "Shipping Method"
+msgstr "Verzendmethode"
+
+#: dist/pos/index.js:22
+msgid "Update Total"
+msgstr "Totaal bijwerken"
+
+#: dist/pos/index.js:22
+msgid "Save Shipping"
+msgstr "Verzending opslaan"
+
+#: dist/pos/index.js:22
+msgid "Total due"
+msgstr "Totaal verschuldigd"
+
+#: dist/pos/index.js:22
+msgid "Total paying"
+msgstr "Totaal betalen"
+
+#: dist/pos/index.js:22
+msgid "Coupon usage limit has been reached."
+msgstr "Kortingsbon gebruikerslimiet is bereikt."
+
+#: dist/pos/index.js:22
+msgid "This coupon has expired."
+msgstr "Deze coupon is verlopen."
+
+#: dist/pos/index.js:22
+msgid "The minimum spend for this coupon is %s."
+msgstr "De minimum uitgave voor deze kortingsbon is %s."
+
+#: dist/pos/index.js:22
+msgid "The maximum spend for this coupon is %s."
+msgstr "De maximum uitgave voor deze kortingsbon is %s."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not applicable to your cart contents."
+msgstr ""
+"Sorry, deze kortingsbon is niet toe te passen op de inhoud van je "
+"winkelwagen."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not applicable to selected products."
+msgstr ""
+"Sorry, deze kortingsbon is niet toe te passen op de geselecteerde producten."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not valid for sale items."
+msgstr "Sorry, deze kortingsbon is niet geldig voor uitverkoop items."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not applicable to the products: %s."
+msgstr ""
+"Sorry, deze kortingsbon is niet toe te passen op de volgende producten: %s."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not applicable to the categories: %s."
+msgstr ""
+"Sorry, deze kortingsbon is niet toe te passen op de volgende categorieën: %s."
+
+#: dist/pos/index.js:22
+msgid "Sorry, this coupon is not usable by the current customer."
+msgstr "Sorry, deze kortingsbon is niet te gebruiken voor de volgende klant."
+
+#: dist/pos/index.js:22
+msgid "Guest"
+msgstr "Gast"
+
+#: dist/pos/index.js:22
+msgid "Subtotal"
+msgstr "Subtotaal"
+
+#: dist/pos/index.js:22
+msgid "Tax"
+msgstr "Belasting"
+
+#: dist/pos/index.js:22
+msgid "Subtotal (incl. tax)"
+msgstr "Subtotaal (incl. btw)"
+
+#: dist/pos/index.js:22
+msgid "COUPON"
+msgstr "KORTINGSBON"
+
+#: dist/pos/index.js:22
+msgid "You cannot add %s \"%s\" to your cart"
+msgstr "Je kunt %s \"%s\" niet toevoegen aan je winkelwagen"
+
+#: dist/pos/index.js:22
+msgid "You cannot add another \"%s\" to your cart"
+msgstr "Je kunt geen andere \"%s\" toevoegen aan je winkelwagen"
+
+#: dist/pos/index.js:22
+msgid "Coupon already applied!"
+msgstr "Kortingsbon is al toegepast!"
+
+#: dist/pos/index.js:22
+msgid "The coupon was not applied!"
+msgstr "De kortingsbon was niet toegepast!"
+
+#: dist/pos/index.js:22
+msgid "Add the first product to the cart"
+msgstr "Eerste product toevoegen aan de winkelwagen"
+
+#: dist/pos/index.js:22
+msgid "Are you sure?"
+msgstr "Weet je het zeker?"
+
+#: dist/pos/index.js:22
+msgid "Cancel"
+msgstr "Annuleren"
+
+#: dist/pos/index.js:22
+msgid "Coupon not found"
+msgstr "Kortingsbon niet gevonden"
+
+#: dist/pos/index.js:22
+msgid "Discount type:"
+msgstr "Kortingstype:"
+
+#: dist/pos/index.js:22
+msgid "Coupon amount:"
+msgstr "Kortingsbon bedrag:"
+
+#: dist/pos/index.js:22
+msgid "Expiry date:"
+msgstr "Vervaldatum:"
+
+#: dist/pos/index.js:22
+msgid "clear"
+msgstr "wissen"
+
+#: dist/pos/index.js:22
+msgid "Order #"
+msgstr "Bestelling #"
+
+#: dist/pos/index.js:22
+msgid "items"
+msgstr "items"
+
+#: dist/pos/index.js:22
+msgid "item"
+msgstr "item"
+
+#: dist/pos/index.js:22
+msgid "orders"
+msgstr "bestellingen"
+
+#: dist/pos/index.js:22
+msgid "order"
+msgstr "bestelling"
+
+#: dist/pos/index.js:22
+msgid "All registers"
+msgstr "Alle kassa's"
+
+#: dist/pos/index.js:22
+msgid "Other"
+msgstr "Andere"
+
+#: dist/pos/index.js:22
+#, fuzzy
+msgid "Total Tax"
+msgstr "Totaal"
+
+#: dist/pos/index.js:22
+msgid "Note: "
+msgstr "Notitie: "
+
+#: dist/pos/index.js:22
+msgid "Youtube:"
+msgstr "Youtube:"
+
+#: dist/pos/index.js:22
+msgid "Note:"
+msgstr "Notitie:"
+
+#: dist/pos/index.js:22
+msgid "Order #%s"
+msgstr "Bestelling #%s"
+
+#: dist/pos/index.js:22
+msgid "Paid via %s on %s"
+msgstr "Betaald via %s op %s"
+
+#: dist/pos/index.js:22
+msgid "Print Receipt"
+msgstr "Bon afdrukken"
+
+#: dist/pos/index.js:22
+msgid "< Back to register screen"
+msgstr "< terug naar kassa scherm"
+
+#: dist/pos/index.js:22
+msgid "Or create a new customer profile >"
+msgstr "Of nieuw klantprofiel aanmaken >"
+
+#: dist/pos/index.js:22
+msgid "Create a new customer profile"
+msgstr "Nieuw klantprofiel aanmaken"
+
+#: dist/pos/index.js:22
+msgid "Company"
+msgstr "Bedrijf"
+
+#: dist/pos/index.js:22
+msgid "Country"
+msgstr "Land"
+
+#: dist/pos/index.js:22
+msgid "Current customer"
+msgstr "Huidige klant"
+
+#: dist/pos/index.js:22
+msgid "Email"
+msgstr "E-mail"
+
+#: dist/pos/index.js:22
+msgid "Invalid email address"
+msgstr "Ongeldig e-mailadres"
+
+#: dist/pos/index.js:22
+msgid "First name"
+msgstr "Voornaam"
+
+#: dist/pos/index.js:22
+msgid "Last name"
+msgstr "Achternaam"
+
+#: dist/pos/index.js:22
+msgid "Please enter 3 or more characters"
+msgstr "3 of meer tekens invoeren"
+
+#: dist/pos/index.js:22
+msgid "Not found the right customer?"
+msgstr "Niet de juiste klant gevonden?"
+
+#: dist/pos/index.js:22
+msgid "User not found."
+msgstr "Gebruiker niet gevonden."
+
+#: dist/pos/index.js:22
+msgid "Post Code"
+msgstr "Postcode"
+
+#: dist/pos/index.js:22
+msgid "An account is already registered with this email address."
+msgstr "Er is ale een account geregistreerd met dit e-mailadres."
+
+#: dist/pos/index.js:22
+msgid "This field is required"
+msgstr "Dit veld is verplicht"
+
+#: dist/pos/index.js:22
+msgid "Save Customer"
+msgstr "Klant opslaan"
+
+#: dist/pos/index.js:22
+msgid "Save Shipping Address"
+msgstr "Verzendadres opslaan"
+
+#: dist/pos/index.js:22
+msgid "State"
+msgstr "Staat"
+
+#: dist/pos/index.js:22
+msgid "Use this customer profile"
+msgstr "Gebruik dit klantprofiel"
+
+#: dist/pos/index.js:22
+msgid "Update customer profile"
+msgstr "Klantprofiel bijwerken"
+
+#: dist/pos/index.js:22
+msgid "VAT / CIF / ID"
+msgstr "BTW / ID"
+
+#: dist/pos/index.js:22
+msgid "Notice: some information is missing!"
+msgstr "Notitie: er ontbreekt informatie!"
+
+#: dist/pos/index.js:22
+msgid "Billing %s is a required field."
+msgstr "Facturering %s is een verplicht veld."
+
+#: dist/pos/index.js:22
+msgid "Billing %s are required fields."
+msgstr "Facturering %s zijn verplichte velden."
+
+#: dist/pos/index.js:22
+msgid "Shipping %s is a required field."
+msgstr "Verzending %s is een verplicht veld."
+
+#: dist/pos/index.js:22
+msgid "Shipping %s are required fields."
+msgstr "Verzending %s zijn verplichte velden."
+
+#: dist/pos/index.js:22
+msgid "Cash in hand"
+msgstr "Contant in de hand"
+
+#: dist/pos/index.js:22
+msgid "Reason"
+msgstr "Reden"
+
+#: dist/pos/index.js:22
+msgid "Enter amount"
+msgstr "Bedrag invoeren"
+
+#: dist/pos/index.js:22
+msgid "Save Cash"
+msgstr "Contanten opslaan"
+
+#: dist/pos/index.js:22
+msgid "Cash Total"
+msgstr "Contanten totaal"
+
+#: dist/pos/index.js:22
+msgid "Opening times"
+msgstr "Openingstijden"
+
+#: dist/pos/index.js:22
+msgid "Closing time"
+msgstr "Sluitingstijd"
+
+#: dist/pos/index.js:22
+msgid "Add"
+msgstr "Toevoegen"
+
+#: dist/pos/index.js:22
+msgid "Remove"
+msgstr "Verwijderen"
+
+#: dist/pos/index.js:22
+msgid "Add or remove cash"
+msgstr "Contanten toevoegen of verwijderen"
+
+#: dist/pos/index.js:22
+msgid "Add a note (optional)"
+msgstr "Notitie toevoegen (optioneel)"
+
+#: dist/pos/index.js:22
+msgid "Download Report"
+msgstr "Rapport downloaden"
+
+#: dist/pos/index.js:22
+msgid "Close Register"
+msgstr "Kassa sluiten"
+
+#: dist/pos/index.js:22
+#, fuzzy
+msgid "Entry"
+msgstr "Land"
+
+#: dist/pos/index.js:22
+msgid "Product name: "
+msgstr "Productnaam: "
+
+#: dist/pos/index.js:22
+msgid "Product category:"
+msgstr "Product categorie:"
+
+#: dist/pos/index.js:22
+msgid "SKU"
+msgstr "SKU"
+
+#: dist/pos/index.js:22
+msgid "Tax Status:"
+msgstr "Belasting status:"
+
+#: dist/pos/index.js:22
+msgid "Tax Class:"
+msgstr "Belasting klasse:"
+
+#: dist/pos/index.js:22
+msgid "Regular price:"
+msgstr "Normale prijs:"
+
+#: dist/pos/index.js:22
+msgid "Stock:"
+msgstr "Voorraad:"
+
+#: dist/pos/index.js:22
+msgid "Quantity in stock:"
+msgstr "Hoeveelheid op voorraad:"
+
+#: dist/pos/index.js:22
+msgid "Sync with WooCommerce:"
+msgstr "Synchroniseren met WooCommerce:"
+
+#: dist/pos/index.js:22
+msgid "Disabled"
+msgstr "Uitgeschakeld"
+
+#: dist/pos/index.js:22
+msgid "Create product"
+msgstr "Product maken"
+
+#: dist/pos/index.js:22
+msgid "Taxable"
+msgstr "Belastbaar"
+
+#: dist/pos/index.js:22
+msgid "Shipping only"
+msgstr "Alleen verzenden"
+
+#: dist/pos/index.js:22
+msgid "None"
+msgstr "Geen"
+
+#: dist/pos/index.js:22
+msgid "No results found."
+msgstr "Geen resultaten gevonden."
+
+#: dist/pos/index.js:22
+msgid "add to cart"
+msgstr "toevoegen aan winkelwagen"
+
+#: dist/pos/index.js:22
+msgid "Inclusive"
+msgstr "Inclusief"
+
+#: dist/pos/index.js:22
+msgid "Exclusive"
+msgstr "Exclusief"
+
+#: dist/pos/index.js:22
+msgid "No Category found."
+msgstr "Geen categorie gevonden."
+
+#: dist/pos/index.js:22
+msgid "Invalid or duplicated SKU."
+msgstr "Ongeldige of gedupliceerde SKU."
+
+#: dist/pos/index.js:22
+msgid "Standard"
+msgstr "Standaard"
+
+#: dist/pos/index.js:22
+msgid "Search a category"
+msgstr "Categorie zoeken"
+
+#: dist/pos/index.js:22
+msgid ""
+"Please enter a number. If decimal, use the decimal separator (%s). Never use "
+"thousand separators."
+msgstr ""
+"Nummer invoeren a.u.b. Indien het een decimaal betreft, gebruik de decimaal "
+"scheider (%s). Gebruik nooit scheidingstekens voor duizendtallen."
+
+#: dist/pos/index.js:22
+msgid ""
+"Please enter a positive number. If decimal, use the decimal separator (%s). "
+"Never use thousand separators."
+msgstr ""
+"Positief nummer invoeren a.u.b. Indien het een decimaal betreft, gebruik de "
+"decimaal scheider (%s). Gebruik nooit scheidingstekens voor duizendtallen."
+
+#: dist/pos/index.js:22
+msgid "On sale"
+msgstr "Uitverkoop"
+
+#: dist/pos/index.js:22
+msgid "Featured"
+msgstr "Aanbevolen"
+
+#: dist/pos/index.js:22
+msgid "Add product"
+msgstr "Product toevoegen"
+
+#: dist/pos/index.js:22
+msgid "Scan product"
+msgstr "Product scannen"
+
+#: dist/pos/index.js:22
+msgid "Add cash in hand"
+msgstr "Contant in hand toevoegen"
+
+#: dist/pos/index.js:22
+msgid "Choose variation"
+msgstr "Kies variatie"
+
+#: dist/pos/index.js:22
+msgid "Variable product without variations"
+msgstr "Variabel product zonder variaties"
+
+#: dist/pos/index.js:22
+msgid "Error"
+msgstr "Fout"
+
+#: dist/pos/index.js:22
+msgid "Error: %s"
+msgstr "Fout: %s"
+
+#: dist/pos/index.js:22
+msgid "OK"
+msgstr "OK"
+
+#: dist/pos/index.js:22
+msgid "Do you want to delete this cart and start from scratch?"
+msgstr "Wil je de winkelwagen verwijderen en vanaf 0 beginnen?"
+
+#: dist/pos/index.js:22
+msgid "No, continue with this cart"
+msgstr "Nee, doorgaan met deze winkelwagen"
+
+#: dist/pos/index.js:22
+msgid "Suspend and save cart"
+msgstr "Onderbreken en winkelwagen opslaan"
+
+#: dist/pos/index.js:22
+msgid "Do you want to load the cart number #%s?"
+msgstr "Wil je het winkelwagen nummer #%s laden?"
+
+#: dist/pos/index.js:22
+msgid ""
+"You have some items in your cart. Do you want to suspend your current cart "
+"and load the cart number#%s?"
+msgstr ""
+"Je hebt items in je winkelwagen. Wil je je winkelwagen schorsen en het "
+"winkelwagen nummer #%s laden?"
+
+#: dist/pos/index.js:22
+msgid "No, keep the cart"
+msgstr "Nee, behoud de winkelwagen"
+
+#: dist/pos/index.js:22
+msgid "Do you want to remove the cart number #%s?"
+msgstr "Wil je het winkelwagen nummer #%s verwijderen?"
+
+#: dist/pos/index.js:22
+msgid "This cart was switched with the cart number"
+msgstr "Deze winkelwagen in gewijzigd met het winkelwagen nummer"
+
+#: dist/pos/index.js:22
+msgid "Apply coupon to order total"
+msgstr "Coupon toepassen op totaal bestelling"
+
+#: dist/pos/index.js:22
+msgid "Order total"
+msgstr "Totaal bestelling"
+
+#: dist/pos/index.js:22
+msgid "Add fee or discount to order total"
+msgstr "Kosten of korting toevoegen aan totaal bestelling"
+
+#: dist/pos/index.js:22
+msgid "Set customer's profile"
+msgstr "Klantprofiel instellen"
+
+#: dist/pos/index.js:22
+msgid "Shipping Address"
+msgstr "Verzendadres"
+
+#: dist/pos/index.js:22
+msgid "Add a new product"
+msgstr "Nieuw product toevoegen"
+
+#: dist/pos/index.js:22
+msgid "Split Payment"
+msgstr "Betaling splitsen"
+
+#: dist/pos/index.js:22
+msgid "Fix your cart and try again"
+msgstr "Winkelwagen herstellen en opnieuw proberen"
+
+#: dist/pos/index.js:22
+msgid "Error: You are not able to do this."
+msgstr "Fout: Je kunt dit niet doen."
+
+#: dist/pos/index.js:22
+msgid "Profit of"
+msgstr "Profiteer van"
+
+#: dist/pos/index.js:22
+msgctxt "Title of Close Register modal"
+msgid "Close Register"
+msgstr "Kassa sluiten"
+
+#: dist/pos/index.js:22
+msgid "Are you sure you want to log out?"
+msgstr "Weet je zeker dat je wilt uitloggen?"
+
+#~ msgid "No data recorded for the selected time period."
+#~ msgstr "Geen data geregistreerd voor de geselecteerde periode."
+
+#~ msgid "No cashiers found for the selected Store."
+#~ msgstr "Geen kassamedewerkers gevonden voor de geselecteerde winkel."
+
+#~ msgid "Standard Register"
+#~ msgstr "Standaard kassa"
